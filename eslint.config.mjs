@@ -12,9 +12,6 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
-    // Generated runtime for the original Claude design-tool prototype —
-    // not part of the app, kept only as a design reference.
-    "support.js",
   ]),
 ]);
 

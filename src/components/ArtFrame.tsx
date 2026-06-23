@@ -2,9 +2,11 @@
 
 import { useCallback, useEffect, useRef, useState, type CSSProperties } from "react";
 import styles from "./ArtFrame.module.css";
-import { COLLECTIONS, flattenCollections, type FlatPiece } from "@/data/collections";
-
-const FLAT = flattenCollections(COLLECTIONS);
+import { COLLECTIONS } from "@/data/collections";
+import { useTour } from "@/hooks/useTour";
+import { downloadViewsCsv, logView } from "@/lib/view-log";
+import { requestWakeLock } from "@/lib/wake-lock";
+import type { FlatPiece } from "@/data/types";
 
 const BACKGROUND = "#0a0a0a";
 const MINUTES_PER_PIECE = 5;
@@ -23,8 +25,9 @@ function qrSrc(link: string) {
 }
 
 export default function ArtFrame() {
-  const [index, setIndex] = useState(0);
-  const [prevIndex, setPrevIndex] = useState<number | null>(null);
+  const { current, ready, goNext, goPrev, goNextCollection, goPrevCollection } = useTour(COLLECTIONS);
+
+  const [prevPiece, setPrevPiece] = useState<FlatPiece | null>(null);
   const [fade, setFade] = useState(true);
   const [playing, setPlaying] = useState(true);
   const [intro, setIntro] = useState(true);
@@ -35,6 +38,7 @@ export default function ArtFrame() {
   const lastActivityRef = useRef(0);
   const introTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const fadeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const lastShownRef = useRef<FlatPiece | null>(null);
 
   const triggerIntro = useCallback(() => {
     setIntro(true);
@@ -42,38 +46,36 @@ export default function ArtFrame() {
     introTimeoutRef.current = setTimeout(() => setIntro(false), INTRO_DURATION_MS);
   }, []);
 
-  const transitionTo = useCallback(
-    (resolve: (current: number) => number) => {
-      elapsedRef.current = 0;
-      setIndex((current) => {
-        const next = resolve(current);
-        setPrevIndex(current);
-        if (FLAT[next].isCollectionStart) triggerIntro();
-        return next;
-      });
+  // Fires whenever the displayed piece actually changes: crossfade, collection intro, view log.
+  useEffect(() => {
+    if (!current) return;
+    const last = lastShownRef.current;
+    if (last && last.id === current.id) return;
+
+    if (last) {
+      setPrevPiece(last);
       setFade(false);
       requestAnimationFrame(() => requestAnimationFrame(() => setFade(true)));
       if (fadeTimeoutRef.current) clearTimeout(fadeTimeoutRef.current);
-      fadeTimeoutRef.current = setTimeout(() => setPrevIndex(null), FADE_RESET_MS);
-    },
-    [triggerIntro]
-  );
-
-  const go = useCallback(
-    (dir: number) => transitionTo((current) => (current + dir + FLAT.length) % FLAT.length),
-    [transitionTo]
-  );
-
-  const goCollection = useCallback(
-    (dir: number) => {
-      transitionTo((current) => {
-        const collIndex = FLAT[current].collIndex;
-        const nextColl = (collIndex + dir + COLLECTIONS.length) % COLLECTIONS.length;
-        return FLAT.findIndex((p) => p.collIndex === nextColl && p.pieceIndex === 0);
+      fadeTimeoutRef.current = setTimeout(() => setPrevPiece(null), FADE_RESET_MS);
+    }
+    if (current.isCollectionStart && (!last || last.collTitle !== current.collTitle)) {
+      triggerIntro();
+    }
+    elapsedRef.current = 0;
+    lastShownRef.current = current;
+    // `ready` is false only for the one-frame SSR placeholder (always collections[0])
+    // swapped in before the real persisted/shuffled position loads — don't log that.
+    if (ready) {
+      logView({
+        title: current.title,
+        artist: current.artist,
+        source: current.source,
+        link: current.link,
+        seenAt: new Date().toISOString(),
       });
-    },
-    [transitionTo]
-  );
+    }
+  }, [current, ready, triggerIntro]);
 
   const togglePlay = useCallback(() => {
     elapsedRef.current = 0;
@@ -97,6 +99,12 @@ export default function ArtFrame() {
     setFailed((prev) => (prev[url] ? prev : { ...prev, [url]: true }));
   }, []);
 
+  // Keep the screen awake for as long as this is running — it's meant for an unattended wall display.
+  useEffect(() => {
+    const lock = requestWakeLock();
+    return () => lock.release();
+  }, []);
+
   // Mount-once listeners: keyboard shortcuts, activity tracking, intro timeout.
   useEffect(() => {
     lastActivityRef.current = Date.now();
@@ -107,11 +115,13 @@ export default function ArtFrame() {
         e.preventDefault();
         togglePlay();
       } else if (e.key === "ArrowRight") {
-        go(1);
+        goNext();
       } else if (e.key === "ArrowLeft") {
-        go(-1);
+        goPrev();
       } else if (e.key.toLowerCase() === "f") {
         fullscreen();
+      } else if (e.key.toLowerCase() === "l") {
+        downloadViewsCsv();
       }
       registerActivity();
     };
@@ -127,7 +137,7 @@ export default function ArtFrame() {
       window.removeEventListener("mousemove", registerActivity);
       window.removeEventListener("touchstart", registerActivity);
     };
-  }, [go, togglePlay, fullscreen, registerActivity]);
+  }, [goNext, goPrev, togglePlay, fullscreen, registerActivity]);
 
   // Playback / idle-menu ticker.
   useEffect(() => {
@@ -137,7 +147,7 @@ export default function ArtFrame() {
         const durationMs = MINUTES_PER_PIECE * 60_000;
         if (elapsedRef.current >= durationMs) {
           elapsedRef.current = 0;
-          go(1);
+          goNext();
         }
       }
       if (menuOpen && Date.now() - lastActivityRef.current > MENU_IDLE_MS) {
@@ -145,10 +155,10 @@ export default function ArtFrame() {
       }
     }, TICK_MS);
     return () => clearInterval(id);
-  }, [playing, menuOpen, go]);
+  }, [playing, menuOpen, goNext]);
 
-  const current = FLAT[index];
-  const prevPiece = prevIndex != null ? FLAT[prevIndex] : null;
+  if (!current) return null;
+
   const artBottom = SHOW_CAPTION ? "112px" : "0px";
   const introVisible = SHOW_COLLECTION_INTRO && intro;
 
@@ -212,6 +222,7 @@ export default function ArtFrame() {
                 className={styles.qrImg}
               />
             </div>
+            <div className={styles.sourceLabel}>{current.source}</div>
           </div>
         </div>
       )}
@@ -229,7 +240,7 @@ export default function ArtFrame() {
         className={styles.controlBar}
         style={{ "--menu-y": menuOpen ? "0%" : "135%" } as CSSProperties}
       >
-        <button className={styles.navBtn} onClick={() => go(-1)} aria-label="Previous piece">
+        <button className={styles.navBtn} onClick={goPrev} aria-label="Previous piece">
           <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor">
             <path d="M11 2.5 L4 8 L11 13.5 Z" />
           </svg>
@@ -252,7 +263,7 @@ export default function ArtFrame() {
           )}
         </button>
 
-        <button className={styles.navBtn} onClick={() => go(1)} aria-label="Next piece">
+        <button className={styles.navBtn} onClick={goNext} aria-label="Next piece">
           <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor">
             <path d="M5 2.5 L12 8 L5 13.5 Z" />
           </svg>
@@ -260,11 +271,7 @@ export default function ArtFrame() {
 
         <div className={styles.divider} />
 
-        <button
-          className={styles.collArrow}
-          onClick={() => goCollection(-1)}
-          aria-label="Previous collection"
-        >
+        <button className={styles.collArrow} onClick={goPrevCollection} aria-label="Previous collection">
           <svg width="9" height="13" viewBox="0 0 9 13" fill="none" stroke="currentColor" strokeWidth="1.6">
             <path d="M7 1 L2 6.5 L7 12" />
           </svg>
@@ -272,11 +279,7 @@ export default function ArtFrame() {
 
         <div className={styles.collTitle}>{current.collTitle}</div>
 
-        <button
-          className={styles.collArrow}
-          onClick={() => goCollection(1)}
-          aria-label="Next collection"
-        >
+        <button className={styles.collArrow} onClick={goNextCollection} aria-label="Next collection">
           <svg width="9" height="13" viewBox="0 0 9 13" fill="none" stroke="currentColor" strokeWidth="1.6">
             <path d="M2 1 L7 6.5 L2 12" />
           </svg>
@@ -285,10 +288,16 @@ export default function ArtFrame() {
         <div className={styles.divider} />
 
         <div className={styles.counterLabel}>
-          {String(index + 1).padStart(2, "0")} / {String(FLAT.length).padStart(2, "0")}
+          {String(current.pieceIndex + 1).padStart(2, "0")} / {String(current.pieceCount).padStart(2, "0")}
         </div>
 
-        <button className={styles.fullscreenBtn} onClick={fullscreen} aria-label="Toggle fullscreen">
+        <button className={styles.iconBtn} onClick={() => downloadViewsCsv()} aria-label="Download view log as CSV">
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M8 2 V10 M4.5 6.5 L8 10 L11.5 6.5 M2.5 13 H13.5" />
+          </svg>
+        </button>
+
+        <button className={styles.iconBtn} onClick={fullscreen} aria-label="Toggle fullscreen">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6">
             <path d="M2 6 V2 H6 M10 2 H14 V6 M14 10 V14 H10 M6 14 H2 V10" />
           </svg>

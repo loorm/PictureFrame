@@ -1,0 +1,2367 @@
+[
+  {
+    "id": "dutch-golden-age-1",
+    "themeId": "dutch-golden-age",
+    "title": "Dutch Golden Age",
+    "era": "1600 — 1700",
+    "blurb": "Light, stillness, and the quiet drama of everyday life in the Low Countries.",
+    "accent": "#6b4f2a",
+    "accent2": "#241a0f",
+    "pieces": [
+      {
+        "id": "wikimedia:1665_Girl_with_a_Pearl_Earring.jpg",
+        "title": "Girl with a Pearl Earring",
+        "artist": "Johannes Vermeer",
+        "date": "c. 1665",
+        "medium": "Oil on canvas",
+        "source": "Mauritshuis",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1665_Girl_with_a_Pearl_Earring.jpg",
+        "link": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring/",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+        "title": "The Milkmaid",
+        "artist": "Johannes Vermeer",
+        "date": "c. 1658",
+        "medium": "Oil on canvas",
+        "source": "Rijksmuseum",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+        "link": "https://www.rijksmuseum.nl/en/collection/SK-A-2344",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:The_Night_Watch_-_HD.jpg",
+        "title": "The Night Watch",
+        "artist": "Rembrandt van Rijn",
+        "date": "1642",
+        "medium": "Oil on canvas",
+        "source": "Rijksmuseum",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Night_Watch_-_HD.jpg",
+        "link": "https://www.rijksmuseum.nl/en/collection/SK-C-5",
+        "fame": "anchor"
+      }
+    ]
+  },
+  {
+    "id": "ukiyo-e-1",
+    "themeId": "ukiyo-e",
+    "title": "Japanese Ukiyo-e",
+    "era": "Edo Period · 1603 — 1868",
+    "blurb": "Woodblock prints of the floating world — waves, weather, and fleeting beauty.",
+    "accent": "#2b4a63",
+    "accent2": "#0f1c28",
+    "pieces": [
+      {
+        "id": "wikimedia:Tsunami_by_hokusai_19th_century.jpg",
+        "title": "The Great Wave off Kanagawa",
+        "artist": "Katsushika Hokusai",
+        "date": "c. 1831",
+        "medium": "Woodblock print",
+        "source": "The Met",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsunami_by_hokusai_19th_century.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/45434",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Red_Fuji_southern_wind_clear_morning.jpg",
+        "title": "Fine Wind, Clear Morning",
+        "artist": "Katsushika Hokusai",
+        "date": "c. 1830",
+        "medium": "Woodblock print",
+        "source": "The Met",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Fuji_southern_wind_clear_morning.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/56074",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Hiroshige_Atake_sudden_shower.jpg",
+        "title": "Sudden Shower over Shin-Ōhashi Bridge",
+        "artist": "Utagawa Hiroshige",
+        "date": "1857",
+        "medium": "Woodblock print",
+        "source": "The Met",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiroshige_Atake_sudden_shower.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/37362",
+        "fame": "anchor"
+      }
+    ]
+  },
+  {
+    "id": "post-impressionism-1",
+    "themeId": "post-impressionism",
+    "title": "Post-Impressionism",
+    "era": "1880 — 1905",
+    "blurb": "Colour set free — the night sky, the lamplit café, paint laid on like emotion.",
+    "accent": "#243a64",
+    "accent2": "#0e1730",
+    "pieces": [
+      {
+        "id": "wikimedia:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+        "title": "The Starry Night",
+        "artist": "Vincent van Gogh",
+        "date": "1889",
+        "medium": "Oil on canvas",
+        "source": "MoMA",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+        "link": "https://www.moma.org/collection/works/79802",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg",
+        "title": "Café Terrace at Night",
+        "artist": "Vincent van Gogh",
+        "date": "1888",
+        "medium": "Oil on canvas",
+        "source": "Kröller-Müller",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_(Yorck).jpg",
+        "link": "https://krollermuller.nl/en/vincent-van-gogh-terrace-of-a-cafe-at-night-place-du-forum",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Monet_-_Impression,_Sunrise.jpg",
+        "title": "Impression, Sunrise",
+        "artist": "Claude Monet",
+        "date": "1872",
+        "medium": "Oil on canvas",
+        "source": "Musée Marmottan",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monet_-_Impression,_Sunrise.jpg",
+        "link": "https://www.marmottan.fr/en/collections/impression-sunrise/",
+        "fame": "anchor"
+      }
+    ]
+  },
+  {
+    "id": "ancient-egypt-1",
+    "themeId": "ancient-egypt",
+    "title": "Ancient Egypt",
+    "era": "New Kingdom · c. 1550 — 1070 BC",
+    "blurb": "Stone and gold made to outlast empires — the sculptured faces of the divine.",
+    "accent": "#7a5a22",
+    "accent2": "#2a1e0c",
+    "pieces": [
+      {
+        "id": "wikimedia:Nofretete_Neues_Museum.jpg",
+        "title": "Bust of Nefertiti",
+        "artist": "Attributed to Thutmose",
+        "date": "c. 1345 BC",
+        "medium": "Painted limestone",
+        "source": "Neues Museum",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nofretete_Neues_Museum.jpg",
+        "link": "https://www.smb.museum/en/museums-institutions/neues-museum/collection-research/",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
+        "title": "Mask of Tutankhamun",
+        "artist": "Unknown",
+        "date": "c. 1323 BC",
+        "medium": "Gold and inlay",
+        "source": "Egyptian Museum, Cairo",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
+        "link": "https://en.wikipedia.org/wiki/Mask_of_Tutankhamun",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Egyptian_-_Seated_Scribe_-_Walters_22231.jpg",
+        "title": "The Seated Scribe",
+        "artist": "Unknown",
+        "date": "c. 2600 — 2350 BC",
+        "medium": "Painted limestone",
+        "source": "Louvre",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Egyptian_-_Seated_Scribe_-_Walters_22231.jpg",
+        "link": "https://collections.louvre.fr/en/ark:/53355/cl010005973",
+        "fame": "anchor"
+      }
+    ]
+  },
+  {
+    "id": "turn-of-century-1",
+    "themeId": "turn-of-century",
+    "title": "Turn of the Century",
+    "era": "1890 — 1930",
+    "blurb": "Symbolism, gold leaf, and pure geometry — modern art finding its first voices.",
+    "accent": "#6a2a3a",
+    "accent2": "#251017",
+    "pieces": [
+      {
+        "id": "wikimedia:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+        "title": "The Kiss",
+        "artist": "Gustav Klimt",
+        "date": "1908",
+        "medium": "Oil and gold leaf",
+        "source": "Belvedere",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+        "link": "https://www.belvedere.at/en/kiss",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg",
+        "title": "Composition II in Red, Blue, and Yellow",
+        "artist": "Piet Mondrian",
+        "date": "1930",
+        "medium": "Oil on canvas",
+        "source": "Kunsthaus Zürich",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg",
+        "link": "https://en.wikipedia.org/wiki/Composition_II_in_Red,_Blue,_and_Yellow",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+        "title": "The Scream",
+        "artist": "Edvard Munch",
+        "date": "1893",
+        "medium": "Oil, tempera and pastel",
+        "source": "National Museum, Norway",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+        "link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939",
+        "fame": "anchor"
+      }
+    ]
+  },
+  {
+    "id": "italian-renaissance-1",
+    "themeId": "italian-renaissance",
+    "title": "Italian Renaissance",
+    "era": "1400 — 1600",
+    "blurb": "Perspective, anatomy, and divine proportion — the rebirth of classical form.",
+    "accent": "#5a3a1e",
+    "accent2": "#1f140b",
+    "pieces": [
+      {
+        "id": "met:207003",
+        "title": "Hercules and Antaeus",
+        "artist": "Unknown",
+        "date": "probably 19th century",
+        "medium": "Bronze, with red-brown natural patina, and remains of dark brown lacquer.",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/es/original/DP-22147-001.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/207003",
+        "fame": "anchor"
+      },
+      {
+        "id": "met:22860",
+        "title": "Sallet in the Shape of a Lion's Head",
+        "artist": "Unknown",
+        "date": "ca. 1475–80",
+        "medium": "Steel, copper, gold, glass, pigment, textile",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/aa/original/DP237081.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/22860",
+        "fame": "general"
+      },
+      {
+        "id": "met:460738",
+        "title": "Pilgrim flask",
+        "artist": "Italian",
+        "date": "ca. 1500–1525",
+        "medium": "Colorless (slightly tan) nonlead glass.  Blown, enameled, gilt.",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/rl/original/CAT.167_167.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/460738",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "northern-renaissance-1",
+    "themeId": "northern-renaissance",
+    "title": "Northern Renaissance",
+    "era": "1430 — 1580",
+    "blurb": "Oil glazed thin as glass — obsessive detail from Flanders to the Rhine.",
+    "accent": "#3a4a3a",
+    "accent2": "#141a14",
+    "pieces": [
+      {
+        "id": "aic:102098",
+        "title": "Phaeton Driving the Chariot of Phoebus",
+        "artist": "Northern Italian; possibly Verona",
+        "date": "1475–1500",
+        "medium": "Tempera or distemper on canvas",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/82b1ac6e-de4e-7e80-6bd8-e1f1bb0cb889/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/102098",
+        "fame": "anchor"
+      },
+      {
+        "id": "cma:143744",
+        "title": "The Judgment of Solomon",
+        "artist": "Dirk Vellert (Netherlandish, 1480/85–1547)",
+        "date": "c. 1530",
+        "medium": "pot metal, white glass, and silver stain",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1968.188.1/1968.188.1_web.jpg",
+        "link": "https://clevelandart.org/art/1968.188.1",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:110673",
+        "title": "Mater Dolorosa (Sorrowing Virgin)",
+        "artist": "Workshop of Dieric Bouts (Netherlandish, 1415–1475)",
+        "date": "c. 1490",
+        "medium": "Oil on panel",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/66c1797f-b87e-8736-cdf6-c490bd34863b/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/110673",
+        "fame": "general"
+      },
+      {
+        "id": "aic:14690",
+        "title": "Fragment",
+        "artist": "Italy",
+        "date": "Late 14th/15th century",
+        "medium": "Silk and gilt-animal-substrate-wrapped linen, warp-float faced 3:1 twill weave with supplementary patterning wefts bound by secondary binding warps in (weft-float faced 1:3) twill interlacings (on reverse face secondary binding warps and supplementary wefts form detached interlacing)",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/b4ccdf0f-8b1b-2969-e447-5402cbe56985/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/14690",
+        "fame": "general"
+      },
+      {
+        "id": "aic:22857",
+        "title": "The Garden of Paradise",
+        "artist": "Workshop of Hieronymus Bosch (Netherlandish, c. 1450–1516)",
+        "date": "c. 1500–c. 1520",
+        "medium": "Oil on panel",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/3e82db48-5f93-ada3-7ab2-f97328ccc1bd/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/22857",
+        "fame": "general"
+      },
+      {
+        "id": "cma:97155",
+        "title": "Portrait of a Couple",
+        "artist": "Unknown",
+        "date": "c. 1580–88",
+        "medium": "oil on canvas",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1916.793/1916.793_web.jpg",
+        "link": "https://clevelandart.org/art/1916.793",
+        "fame": "general"
+      },
+      {
+        "id": "aic:145678",
+        "title": "Headrest (Isicamelo)",
+        "artist": "Zulu",
+        "date": "19th century",
+        "medium": "Wood",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/17488ef1-161d-421f-69ef-b439a7655a3a/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/145678",
+        "fame": "general"
+      },
+      {
+        "id": "aic:19118",
+        "title": "Door Boss: Bust of a Satyress",
+        "artist": "Northern Italian",
+        "date": "c. 1580",
+        "medium": "Bronze",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/32c7afd7-bcc0-e5cd-9d4c-74dc04504bd6/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/19118",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "baroque-1",
+    "themeId": "baroque",
+    "title": "Baroque",
+    "era": "1600 — 1750",
+    "blurb": "Drama, shadow, and movement — paint and stone learning to perform.",
+    "accent": "#4a2218",
+    "accent2": "#1a0c08",
+    "pieces": [
+      {
+        "id": "cma:149107",
+        "title": "Scenes of Witchcraft: Evening",
+        "artist": "Salvator Rosa (Italian, 1615–1673)",
+        "date": "c. 1645–49",
+        "medium": "oil on canvas",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1977.37.3/1977.37.3_web.jpg",
+        "link": "https://clevelandart.org/art/1977.37.3",
+        "fame": "anchor"
+      },
+      {
+        "id": "vam:O114128",
+        "title": "Triomphus Novem Seculorum Imperii Romano-Germanici",
+        "artist": "Engelbrecht, Christian",
+        "date": "1725",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2013GA3355/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O114128",
+        "fame": "anchor"
+      },
+      {
+        "id": "cma:117032",
+        "title": "The Sacrifice of Isaac",
+        "artist": "Andrea del Sarto (Italian, 1486–1530)",
+        "date": "c. 1527",
+        "medium": "oil on wood",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1937.577/1937.577_web.jpg",
+        "link": "https://clevelandart.org/art/1937.577",
+        "fame": "general"
+      },
+      {
+        "id": "cma:148758",
+        "title": "The Crucifixion of Saint Andrew",
+        "artist": "Caravaggio (Italian, 1571–1610)",
+        "date": "1606–7",
+        "medium": "oil on canvas",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1976.2/1976.2_web.jpg",
+        "link": "https://clevelandart.org/art/1976.2",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O8458",
+        "title": "Baroque",
+        "artist": "Weiss, Dick",
+        "date": "1984",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2019LM0193/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O8458",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O364746",
+        "title": "Untitled",
+        "artist": "St Cyr, Val",
+        "date": "ca. 1938",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2017JW1505/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O364746",
+        "fame": "general"
+      },
+      {
+        "id": "cma:160941",
+        "title": "Spring",
+        "artist": "Doccia Porcelain Factory (Italian)",
+        "date": "mid-1700s",
+        "medium": "porcelain",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1999.213/1999.213_web.jpg",
+        "link": "https://clevelandart.org/art/1999.213",
+        "fame": "general"
+      },
+      {
+        "id": "cma:111691",
+        "title": "Interior of a Synagogue",
+        "artist": "Alessandro Magnasco (Italian, 1667–1749)",
+        "date": "c. 1725–35",
+        "medium": "oil on canvas",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1930.22/1930.22_web.jpg",
+        "link": "https://clevelandart.org/art/1930.22",
+        "fame": "general"
+      },
+      {
+        "id": "cma:144284",
+        "title": "A Philosopher",
+        "artist": "Pierre Puget (French, 1620–1694)",
+        "date": "1662",
+        "medium": "marble",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1969.121/1969.121_web.jpg",
+        "link": "https://clevelandart.org/art/1969.121",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O698165",
+        "title": "Nude with Baroque Angel",
+        "artist": "Bloch, Martin",
+        "date": "ca.1925",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2011EV6991/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O698165",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "romanticism-1",
+    "themeId": "romanticism",
+    "title": "Romanticism",
+    "era": "1780 — 1850",
+    "blurb": "The sublime and the storm — feeling over reason, nature over order.",
+    "accent": "#2a3a4a",
+    "accent2": "#0d141a",
+    "pieces": [
+      {
+        "id": "vam:O125175",
+        "title": "A View in the Tyrol",
+        "artist": "Kuwasseg, Karl-Joseph",
+        "date": "1857",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2007BP0925/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O125175",
+        "fame": "anchor"
+      },
+      {
+        "id": "vam:O123625",
+        "title": "The Torrent",
+        "artist": "Steffan, Johann Gottfried",
+        "date": "1848",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2007BN1681/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O123625",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O121223",
+        "title": "Winter landscape: sunset",
+        "artist": "Munthe, Ludwig",
+        "date": "ca. 1870-1885",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2006BE9846/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O121223",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Caspar David Friedrich - Wanderer above the sea of fog.jpg",
+        "title": "Caspar David Friedrich - Wanderer above the sea of fog",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3ACaspar%20David%20Friedrich%20-%20Wanderer%20above%20the%20sea%20of%20fog.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O131424",
+        "title": "The Foot Bridge",
+        "artist": "Rosenthal, August",
+        "date": "1848",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2006BH7835/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O131424",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O125228",
+        "title": "Winter Scene: Sunset",
+        "artist": "Munthe, Ludwig",
+        "date": "ca. 1870-1885",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2006BE9847/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O125228",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O131802",
+        "title": "A Mountain Torrent",
+        "artist": "Lindlar, Johann Wilhelm",
+        "date": "1860s",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2007BN6054/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O131802",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "neoclassicism-1",
+    "themeId": "neoclassicism",
+    "title": "Neoclassicism",
+    "era": "1750 — 1850",
+    "blurb": "Cool marble and straight lines — antiquity revived for a new age of reason.",
+    "accent": "#4a4a3a",
+    "accent2": "#18180f",
+    "pieces": [
+      {
+        "id": "wikimedia:Ruined neoclassical building in Iliou Street Athens Greece.jpg",
+        "title": "Ruined neoclassical building in Iliou Street Athens Greece",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Ruined_neoclassical_building_in_Iliou_Street_Athens_Greece.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3ARuined%20neoclassical%20building%20in%20Iliou%20Street%20Athens%20Greece.jpg",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Psyche revived by cupid's kiss, Paris 2 October 2011 002.jpg",
+        "title": "Psyche revived by cupid's kiss, Paris 2 October 2011 002",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Psyche_revived_by_cupid%27s_kiss%2C_Paris_2_October_2011_002.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3APsyche%20revived%20by%20cupid's%20kiss%2C%20Paris%202%20October%202011%20002.jpg",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Neoclassical Old Door on an old Villa Psarron Street Metaxourgeion Athens Greece.jpg",
+        "title": "Neoclassical Old Door on an old Villa Psarron Street Metaxourgeion Athens Greece",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Neoclassical_Old_Door_on_an_old_Villa_Psarron_Street_Metaxourgeion_Athens_Greece.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3ANeoclassical%20Old%20Door%20on%20an%20old%20Villa%20Psarron%20Street%20Metaxourgeion%20Athens%20Greece.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Ruins of neoclassical building in Metaxourgeion Athens Greece.jpg",
+        "title": "Ruins of neoclassical building in Metaxourgeion Athens Greece",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ruins_of_neoclassical_building_in_Metaxourgeion_Athens_Greece.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3ARuins%20of%20neoclassical%20building%20in%20Metaxourgeion%20Athens%20Greece.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:297936",
+        "title": "Studies of a Cat; verso: Study of a horse's hoof",
+        "artist": "Théodore Géricault",
+        "date": "c. 1820-1821",
+        "medium": "Graphite with touches of black chalk on tan wove paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:50901_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/297936",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Old neoclassical building Psarron Metaxourgeion Athens Greece.jpg",
+        "title": "Old neoclassical building Psarron Metaxourgeion Athens Greece",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Old_neoclassical_building_Psarron_Metaxourgeion_Athens_Greece.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AOld%20neoclassical%20building%20Psarron%20Metaxourgeion%20Athens%20Greece.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:David - The Death of Socrates.jpg",
+        "title": "David - The Death of Socrates",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/David_-_The_Death_of_Socrates.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3ADavid%20-%20The%20Death%20of%20Socrates.jpg",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "ashcan-school-1",
+    "themeId": "ashcan-school",
+    "title": "Ashcan School",
+    "era": "1890 — 1920",
+    "blurb": "Tenements, prizefights, and city streets — American realism unvarnished.",
+    "accent": "#3a2a22",
+    "accent2": "#150f0a",
+    "pieces": [
+      {
+        "id": "harvard:203505",
+        "title": "The Broken Wall (Episode 5) from the \"Tales of Ise\" (Ise monogatari)",
+        "artist": "Tosa School",
+        "date": "Late 16th to early 17th century",
+        "medium": "One of twelve album leaves; ink, color and gold on paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:820211",
+        "link": "https://www.harvardartmuseums.org/collections/object/203505",
+        "fame": "anchor"
+      },
+      {
+        "id": "harvard:203504",
+        "title": "A Prisoner for Love (Episode 6) from the \"Tales of Ise\" (Ise monogatari)",
+        "artist": "Tosa School",
+        "date": "Late 16th-early 17th century",
+        "medium": "One of twelve album leaves; ink, color and gold on paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:820212",
+        "link": "https://www.harvardartmuseums.org/collections/object/203504",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:203503",
+        "title": "Lovers Parting at Dawn (Episode 14) from the \"Tales of Ise\" (Ise monogatari)",
+        "artist": "Tosa School",
+        "date": "Late 16th to early 17th century",
+        "medium": "One of twelve album leaves; ink, color and gold on paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:820209",
+        "link": "https://www.harvardartmuseums.org/collections/object/203503",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:191751",
+        "title": "Set of 12 paintings: Scenes from \"Tales of Ise\" (Ise monogatari)",
+        "artist": "Tosa School",
+        "date": "Late 16th to early 17th century",
+        "medium": "12 album leaves; ink, color and gold on paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:VRS46650_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/191751",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:342199",
+        "title": "Gloucester Harbor at Sunset",
+        "artist": "Fitz Henry Lane",
+        "date": "c. 1859",
+        "medium": "oil on canvas",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:LEG281994",
+        "link": "https://www.harvardartmuseums.org/collections/object/342199",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "abstract-expressionism-1",
+    "themeId": "abstract-expressionism",
+    "title": "Abstract Expressionism",
+    "era": "1940s — 1960s",
+    "blurb": "Gesture as subject — paint thrown, dripped, and scraped into feeling.",
+    "accent": "#2a2a2a",
+    "accent2": "#0d0d0d",
+    "pieces": [
+      {
+        "id": "europeana:1316-https___www_searchculture_gr_aggregator_edm_momus_000179_8815",
+        "title": "Χωρίς τίτλο",
+        "artist": "http://semantics.gr/authorities/searchculture-persons/1349402168",
+        "date": "",
+        "medium": "",
+        "source": "Metropolitan Organisation of Museums of Visual Arts of Thessaloniki – MOMus",
+        "image": "http://dam.momus.gr/files/original/5bfd6024a06e242f4cea4ef78b82d5c09b681a82.jpg",
+        "link": "https://www.momus.gr/collections/0008815",
+        "fame": "anchor"
+      },
+      {
+        "id": "europeana:951-Culturalia_89595769_ecaf_40ee_b471_5a0f7e09451d",
+        "title": "Față: Drumuri",
+        "artist": "Ivancenco Gheorghe",
+        "date": "",
+        "medium": "",
+        "source": "Gavrilă Simion Eco-Museum Research Institute Tulcea",
+        "image": "https://resource.culturalia.ro/public/2000/01/01/_TL-ICEM_2019_10_octombrie_Tocanie_Catalogare_Topoleanu%20Florin_Docpat_Octombrie%202019__docpatv491_DOCPATv491/Imagini/FBE3791178E04D47B3FBA3305E7432B1.tif",
+        "link": "https://culturalia.ro/entities/89595769-ecaf-40ee-b471-5a0f7e09451d/view",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:2063628-IRE_280_010",
+        "title": "Medusa",
+        "artist": "http://data.europeana.eu/agent/44002",
+        "date": "",
+        "medium": "",
+        "source": "Crawford Gallery",
+        "image": "http://www.crawfordartgallery.ie/ImagesCrawford/PaintingImages/Hughie-ODonoghue---Medusa-2005-2006.jpg",
+        "link": "https://www.europeana.eu/item/2063628/IRE_280_010",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:1316-https___www_searchculture_gr_aggregator_edm_momus_000179_9157",
+        "title": "Βυζαντινή ελεγεία",
+        "artist": "http://semantics.gr/authorities/searchculture-persons/1394277280",
+        "date": "1964",
+        "medium": "",
+        "source": "Metropolitan Organisation of Museums of Visual Arts of Thessaloniki – MOMus",
+        "image": "http://dam.momus.gr/files/original/13ae863d5d87c3443b57114769d5c2fccab895e1.jpg",
+        "link": "https://www.momus.gr/collections/0009157",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "cubism-1",
+    "themeId": "cubism",
+    "title": "Cubism",
+    "era": "1907 — 1920",
+    "blurb": "A single object, seen from everywhere at once — form broken into facets.",
+    "accent": "#4a3a2a",
+    "accent2": "#1a140d",
+    "pieces": [
+      {
+        "id": "aic:14435",
+        "title": "Portrait of Picasso",
+        "artist": "Juan Gris",
+        "date": "1947",
+        "medium": "Etching on cream wove paper",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/fb424aff-7bcc-0191-c2c1-dd5be947cc6b/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/14435",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:109260",
+        "title": "Man with a Pipe",
+        "artist": "Pablo Picasso",
+        "date": "1915",
+        "medium": "Oil on canvas",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/43bc66e2-95b2-fb3c-b9b1-232835bfd027/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/109260",
+        "fame": "general"
+      },
+      {
+        "id": "met:435871",
+        "title": "Gardanne",
+        "artist": "Paul Cézanne",
+        "date": "1885–86",
+        "medium": "Oil on canvas",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-047.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/435871",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "surrealism-1",
+    "themeId": "surrealism",
+    "title": "Surrealism",
+    "era": "1920s — 1940s",
+    "blurb": "Dream logic in oil paint — the unconscious mind given a brush.",
+    "accent": "#2a1a3a",
+    "accent2": "#0e0815",
+    "pieces": [
+      {
+        "id": "aic:189807",
+        "title": "Object",
+        "artist": "Claude Cahun",
+        "date": "1936",
+        "medium": "Wood and paint with tennis ball, hair, and found objects",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/07c85e2a-d045-1e2e-ab12-4887e82a1f7f/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/189807",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:118718",
+        "title": "The Banquet",
+        "artist": "René Magritte",
+        "date": "1958",
+        "medium": "Oil on canvas",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/d2c459c3-c6cf-551b-fd27-5a2854b9fa81/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/118718",
+        "fame": "general"
+      },
+      {
+        "id": "aic:185184",
+        "title": "Venus de Milo with Drawers",
+        "artist": "Salvador Dalí",
+        "date": "1936",
+        "medium": "Painted plaster with metal pulls and mink pom-poms",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/678c7a7a-b8c7-2857-7b97-f3c3501b8b1c/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/185184",
+        "fame": "general"
+      },
+      {
+        "id": "aic:109278",
+        "title": "Abstraction: Background with Blue Cloudy Sky",
+        "artist": "Pablo Picasso",
+        "date": "January 4, 1930",
+        "medium": "Oil on panel",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/080c3376-0a60-6d09-f23b-449742a1efeb/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/109278",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "art-deco-1",
+    "themeId": "art-deco",
+    "title": "Art Deco",
+    "era": "1910s — 1930s",
+    "blurb": "Chrome, sunbursts, and speed — design for the machine age.",
+    "accent": "#3a3022",
+    "accent2": "#15110b",
+    "pieces": [
+      {
+        "id": "vam:O107750",
+        "title": "Art Deco: French Decorative arts in the Twenties",
+        "artist": "Branfield, Peter",
+        "date": "1972",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2012FE8113/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O107750",
+        "fame": "anchor"
+      },
+      {
+        "id": "cma:173164",
+        "title": "Muse with Violin Screen",
+        "artist": "Paul Fehér (American, born Hungary, 1898–1990)",
+        "date": "1930",
+        "medium": "Steel, brass; silver and gold plating, cotton velveteen",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/2020.216/2020.216_web.jpg",
+        "link": "https://clevelandart.org/art/2020.216",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O107751",
+        "title": "Art Deco: French Decorative arts in the Twenties",
+        "artist": "Branfield, Peter",
+        "date": "1972",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2012FE8115/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O107751",
+        "fame": "general"
+      },
+      {
+        "id": "cma:109610",
+        "title": "Adam and Eve",
+        "artist": "Cowan Pottery Studio (America, Rocky River, Ohio, 1920–1931)",
+        "date": "1928",
+        "medium": "glazed ceramic",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1928.235/1928.235_web.jpg",
+        "link": "https://clevelandart.org/art/1928.235",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "art-nouveau-1",
+    "themeId": "art-nouveau",
+    "title": "Art Nouveau",
+    "era": "1890 — 1910",
+    "blurb": "Vines, curves, and women with impossible hair — nature reimagined as ornament.",
+    "accent": "#2a3a2a",
+    "accent2": "#0d150d",
+    "pieces": [
+      {
+        "id": "vam:O124444",
+        "title": "Furniture Mount",
+        "artist": "Feure, Georges de",
+        "date": "ca. 1900",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2006AN9900/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O124444",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Jugendstil owls - Koloman Moser - Detail facade of Secession Building - Vienna.jpg",
+        "title": "Jugendstil owls - Koloman Moser - Detail facade of Secession Building - Vienna",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Jugendstil_owls_-_Koloman_Moser_-_Detail_facade_of_Secession_Building_-_Vienna.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AJugendstil%20owls%20-%20Koloman%20Moser%20-%20Detail%20facade%20of%20Secession%20Building%20-%20Vienna.jpg",
+        "fame": "anchor"
+      },
+      {
+        "id": "vam:O1361994",
+        "title": "L'Esprit nouveau",
+        "artist": "[Éditions de l'Esprit Nouveau]",
+        "date": "[1920]-[1925]",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2016JH6185/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O1361994",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O74626",
+        "title": "'L'Art Nouveau'",
+        "artist": "Brangwyn, Frank William (Sir, RA)",
+        "date": "1899",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2014HH0932/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O74626",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Art Nouveau Riga 31.jpg",
+        "title": "Art Nouveau Riga 31",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Art_Nouveau_Riga_31.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AArt%20Nouveau%20Riga%2031.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Art Nouveau jewel design diseño joya modernista.jpg",
+        "title": "Art Nouveau jewel design diseño joya modernista",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Art_Nouveau_jewel_design_dise%C3%B1o_joya_modernista.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AArt%20Nouveau%20jewel%20design%20dise%C3%B1o%20joya%20modernista.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Façade Art Nouveau, rue Gambetta.jpg",
+        "title": "Façade Art Nouveau, rue Gambetta",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Fa%C3%A7ade_Art_Nouveau%2C_rue_Gambetta.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AFa%C3%A7ade%20Art%20Nouveau%2C%20rue%20Gambetta.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Art Nouveau Riga 17.jpg",
+        "title": "Art Nouveau Riga 17",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Art_Nouveau_Riga_17.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AArt%20Nouveau%20Riga%2017.jpg",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "byzantine-icons-1",
+    "themeId": "byzantine-icons",
+    "title": "Byzantine Icons",
+    "era": "5th — 15th century",
+    "blurb": "Gold ground and flattened space — images made for devotion, not illusion.",
+    "accent": "#5a4a1e",
+    "accent2": "#1f190a",
+    "pieces": [
+      {
+        "id": "wikimedia:Icon of Saint George in the Byzantine and Christian Museum (Athens).jpg",
+        "title": "Icon of Saint George in the Byzantine and Christian Museum (Athens)",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Icon_of_Saint_George_in_the_Byzantine_and_Christian_Museum_%28Athens%29.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AIcon%20of%20Saint%20George%20in%20the%20Byzantine%20and%20Christian%20Museum%20(Athens).jpg",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Byzantine icon of the Annunciation (14th c., Pushkin museum).jpg",
+        "title": "Byzantine icon of the Annunciation (14th c., Pushkin museum)",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Byzantine_icon_of_the_Annunciation_%2814th_c.%2C_Pushkin_museum%29.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AByzantine%20icon%20of%20the%20Annunciation%20(14th%20c.%2C%20Pushkin%20museum).jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Byzantine & Post-Byzantine Silver Icons, 13th-19th Century (27858919244).jpg",
+        "title": "Byzantine & Post-Byzantine Silver Icons, 13th-19th Century (27858919244)",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Byzantine_%26_Post-Byzantine_Silver_Icons%2C_13th-19th_Century_%2827858919244%29.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AByzantine%20%26%20Post-Byzantine%20Silver%20Icons%2C%2013th-19th%20Century%20(27858919244).jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Front side of a double sided icon with the Virgin Hodegetria. 13th cent. at the Byzantine and Christian Museum on 12 April 2019.jpg",
+        "title": "Front side of a double sided icon with the Virgin Hodegetria. 13th cent. at the Byzantine and Christian Museum on 12 April 2019",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Front_side_of_a_double_sided_icon_with_the_Virgin_Hodegetria._13th_cent._at_the_Byzantine_and_Christian_Museum_on_12_April_2019.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AFront%20side%20of%20a%20double%20sided%20icon%20with%20the%20Virgin%20Hodegetria.%2013th%20cent.%20at%20the%20Byzantine%20and%20Christian%20Museum%20on%2012%20April%202019.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Back side of a double sided icon depicting two military saints (13th cent.) at the Byzantine and Christian Museum on 12 April 2019.jpg",
+        "title": "Back side of a double sided icon depicting two military saints (13th cent.) at the Byzantine and Christian Museum on 12 April 2019",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Back_side_of_a_double_sided_icon_depicting_two_military_saints_%2813th_cent.%29_at_the_Byzantine_and_Christian_Museum_on_12_April_2019.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3ABack%20side%20of%20a%20double%20sided%20icon%20depicting%20two%20military%20saints%20(13th%20cent.)%20at%20the%20Byzantine%20and%20Christian%20Museum%20on%2012%20April%202019.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Byzantine Greece Christian Icons (28512260731).jpg",
+        "title": "Byzantine Greece Christian Icons (28512260731)",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Byzantine_Greece_Christian_Icons_%2828512260731%29.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AByzantine%20Greece%20Christian%20Icons%20(28512260731).jpg",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "medieval-illuminated-1",
+    "themeId": "medieval-illuminated",
+    "title": "Medieval Illuminated Manuscripts",
+    "era": "500 — 1500",
+    "blurb": "Pages worth more than gold — scripture and story bordered in gilt and vine.",
+    "accent": "#3a2a3a",
+    "accent2": "#150e15",
+    "pieces": [
+      {
+        "id": "harvard:289377",
+        "title": "Illuminated Manuscript",
+        "artist": "Unknown",
+        "date": "9th-10th century",
+        "medium": "Paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:VRS15698_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/289377",
+        "fame": "anchor"
+      },
+      {
+        "id": "harvard:216193",
+        "title": "Table of Concordance, folio from a Gospel",
+        "artist": "Unknown",
+        "date": "c. 1180",
+        "medium": "Ink and opaque watercolor on parchment",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:CARP02253_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/216193",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:215777",
+        "title": "Table of Concordance, folio from a Gospel",
+        "artist": "Unknown",
+        "date": "c. 1180",
+        "medium": "Opaque watercolor and ink on parchment",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:DDC110759_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/215777",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:306362",
+        "title": "Illuminated Letter O, after Medieval Psalter",
+        "artist": "Charles Herbert Moore",
+        "date": "c. 1876-1878",
+        "medium": "Watercolor, white gouache, gold paint, and black ink on off-white wove paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:74040_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/306362",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "gothic-architecture-1",
+    "themeId": "gothic-architecture",
+    "title": "Gothic Architecture & Sculpture",
+    "era": "1140 — 1500",
+    "blurb": "Stone reaching upward — ribbed vaults, light through glass, saints in relief.",
+    "accent": "#2a2a3a",
+    "accent2": "#0e0e16",
+    "pieces": [
+      {
+        "id": "harvard:306404",
+        "title": "Capital, Arcade of Choir Screen, North Aisle, Lincoln Cathedral",
+        "artist": "Charles Herbert Moore",
+        "date": "19th-20th century",
+        "medium": "Brown wash and white gouache over graphite on blue wove paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:INV037830_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/306404",
+        "fame": "anchor"
+      },
+      {
+        "id": "harvard:306363",
+        "title": "Capital, Triforium of Choir, Notre Dame, Paris",
+        "artist": "Charles Herbert Moore",
+        "date": "19th-20th century",
+        "medium": "Brown wash over graphite on cream wove paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:INV001489_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/306363",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:628-Pb_4211",
+        "title": "Neo-Gothic door",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "The International Center for Information Management Systems and Services",
+        "image": "http://www.pictures-bank.eu/pokazobrazek2.php?fileno=4211",
+        "link": "http://www.pictures-bank.eu/index.php?action=przegladaj_zdjecie&id=4211",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:230551",
+        "title": "Venus after the Bath, after Giambologna",
+        "artist": "Unidentified Artist",
+        "date": "17th century",
+        "medium": "Bronze",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:VRS245110",
+        "link": "https://www.harvardartmuseums.org/collections/object/230551",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:306350",
+        "title": "Capital, Triforium of Nave, Notre Dame, Paris",
+        "artist": "Charles Herbert Moore",
+        "date": "19th-20th century",
+        "medium": "Brown wash and white gouache over graphite on cream wove paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:INV037836_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/306350",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:228965",
+        "title": "Column with Female Figure",
+        "artist": "Unidentified Artist",
+        "date": "c. 1260-1300",
+        "medium": "Limestone, intrasparite",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:VRS35960_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/228965",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:228995",
+        "title": "Capital with Gothic Architectural Details",
+        "artist": "Unidentified Artist",
+        "date": "12th-15th century",
+        "medium": "Stone",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:VRS46235_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/228995",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "ancient-greek-1",
+    "themeId": "ancient-greek",
+    "title": "Ancient Greek Art",
+    "era": "800 — 31 BC",
+    "blurb": "The human body as ideal form — painted pottery and the birth of sculpture.",
+    "accent": "#5a5a4a",
+    "accent2": "#1e1e18",
+    "pieces": [
+      {
+        "id": "europeana:2064110-6356",
+        "title": "Copy of an Ancient Greek Relief",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Schola Graphidis Art Collection, Budapest",
+        "image": "http://www.kiskepzo.hu/athenaplus/master/GIP_2015.600.038_a.jpg",
+        "link": "https://scholagraphidis.omeka.net/items/show/6356",
+        "fame": "anchor"
+      },
+      {
+        "id": "europeana:2024903-photography_ProvidedCHO_KU_Leuven_9991870950101488",
+        "title": "Ancient Greek Art. Counting frame design",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Catholic University of Leuven",
+        "image": "https://lib.is/IE2412955/stream?quality=LOW",
+        "link": "https://www.europeana.eu/item/2024903/photography_ProvidedCHO_KU_Leuven_9991870950101488",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:2024903-photography_ProvidedCHO_KU_Leuven_9989053420101488",
+        "title": "Oud-Grieks aardewerk",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Catholic University of Leuven",
+        "image": "https://lib.is/IE2341502/stream?quality=LOW",
+        "link": "https://www.europeana.eu/item/2024903/photography_ProvidedCHO_KU_Leuven_9989053420101488",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:2024903-photography_ProvidedCHO_KU_Leuven_9989051640101488",
+        "title": "Ialyssos. Ancient Greek pottery.",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Catholic University of Leuven",
+        "image": "https://lib.is/IE2341425/stream?quality=LOW",
+        "link": "https://www.europeana.eu/item/2024903/photography_ProvidedCHO_KU_Leuven_9989051640101488",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:2024903-photography_ProvidedCHO_KU_Leuven_9991819830101488",
+        "title": "Oud-Grieks aardewerk. Amfora",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Catholic University of Leuven",
+        "image": "https://lib.is/IE2411926/stream?quality=LOW",
+        "link": "https://www.europeana.eu/item/2024903/photography_ProvidedCHO_KU_Leuven_9991819830101488",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "roman-antiquity-1",
+    "themeId": "roman-antiquity",
+    "title": "Roman Antiquity",
+    "era": "753 BC — 476 AD",
+    "blurb": "Portrait busts, mosaics, and empire rendered in marble and stone.",
+    "accent": "#4a4438",
+    "accent2": "#181612",
+    "pieces": [
+      {
+        "id": "met:251838",
+        "title": "Fragments of a marble statue of the Diadoumenos (youth tying a fillet around his head)",
+        "artist": "Polykleitos",
+        "date": "ca. 69–96 CE",
+        "medium": "Marble",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/gr/original/DT11982.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/251838",
+        "fame": "anchor"
+      },
+      {
+        "id": "met:241069",
+        "title": "Terracotta female head",
+        "artist": "Unknown",
+        "date": "2nd century CE",
+        "medium": "Terracotta",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/gr/original/DP100618.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/241069",
+        "fame": "general"
+      },
+      {
+        "id": "met:249470",
+        "title": "Glass jug",
+        "artist": "Ennion",
+        "date": "1st half of 1st century CE",
+        "medium": "Glass",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/gr/original/DP121998.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/249470",
+        "fame": "general"
+      },
+      {
+        "id": "met:912467",
+        "title": "Marble statue of Pan or a satyr with winnowing basket filled with offerings and cultic objects",
+        "artist": "Unknown",
+        "date": "ca. 2nd century CE",
+        "medium": "Marble",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/gr/original/DP-38530-001.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/912467",
+        "fame": "general"
+      },
+      {
+        "id": "met:243794",
+        "title": "Faience Udjat eye amulet",
+        "artist": "Unknown",
+        "date": "1st century CE",
+        "medium": "Faience",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/gr/original/DP121842edited.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/243794",
+        "fame": "general"
+      },
+      {
+        "id": "met:255973",
+        "title": "Statue of Dionysos leaning on a female figure (\"Hope Dionysos\")",
+        "artist": "Pacetti, Vincenzo",
+        "date": "27 BCE–68 CE",
+        "medium": "Marble",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/gr/original/DT6494.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/255973",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "islamic-art-1",
+    "themeId": "islamic-art",
+    "title": "Islamic Art & Calligraphy",
+    "era": "7th century — present",
+    "blurb": "Geometry and script as devotion — pattern that never quite repeats.",
+    "accent": "#1e3a3a",
+    "accent2": "#0a1515",
+    "pieces": [
+      {
+        "id": "aic:34351",
+        "title": "Serving Bowl with Miniature Figures, Arabic Blessings, and Persian Poetry",
+        "artist": "Iran",
+        "date": "Seljuq dynasty (1037–1194), March 1191 (Safar, 587 AH)",
+        "medium": "Lusterware, fritware with luster-painted overglaze",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/d16965d9-eb50-a0aa-c896-ac05f9479bcd/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/34351",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:108850",
+        "title": "Page from a Copy of The Qur'an",
+        "artist": "Iran",
+        "date": "16th/17th century",
+        "medium": "Ink, colors, and gold on paper",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/704ab5af-778a-6bd6-22c1-96fb5ae03886/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/108850",
+        "fame": "anchor"
+      },
+      {
+        "id": "cma:118472",
+        "title": "Page from a Qur'an, Sura al-Nisa 4, Verses 157–58",
+        "artist": "Unknown",
+        "date": "1100s",
+        "medium": "opaque watercolor, ink, and gold on paper",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1939.507.a/1939.507.a_web.jpg",
+        "link": "https://clevelandart.org/art/1939.507.a",
+        "fame": "general"
+      },
+      {
+        "id": "cma:124001",
+        "title": "Left side of a double-page album folio: Outside a Royal Encampment (recto) and Calligraphy, Persian Verses (verso)",
+        "artist": "Bihzad (Iranian, active 1470–1506)",
+        "date": "c. 1485",
+        "medium": "opaque watercolor, ink, and gold on paper",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1944.490/1944.490_web.jpg",
+        "link": "https://clevelandart.org/art/1944.490",
+        "fame": "general"
+      },
+      {
+        "id": "aic:108749",
+        "title": "Double Page from the Qur'an",
+        "artist": "Iran",
+        "date": "Safavid dynasty (1501–1722), 16th century",
+        "medium": "Opaque watercolor and gold on paper",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/3e782ce2-72ab-1dd2-fb2b-02ace263050d/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/108749",
+        "fame": "general"
+      },
+      {
+        "id": "cma:157216",
+        "title": "Inscription Plaque, Possibly from a Door",
+        "artist": "Unknown",
+        "date": "c. 1693",
+        "medium": "forged steel, cut to shape and pierced",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1994.1/1994.1_web.jpg",
+        "link": "https://clevelandart.org/art/1994.1",
+        "fame": "general"
+      },
+      {
+        "id": "cma:124286",
+        "title": "Twelve-sided Ewer with Sphinxes and Human-Headed Inscriptions",
+        "artist": "Unknown",
+        "date": "1300–1350",
+        "medium": "hammered sheet of brass inlaid with silver",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1945.27/1945.27_web.jpg",
+        "link": "https://clevelandart.org/art/1945.27",
+        "fame": "general"
+      },
+      {
+        "id": "aic:108747",
+        "title": "Page from a Copy of The Qur'an",
+        "artist": "Iraq or Syria",
+        "date": "9th/10th century",
+        "medium": "Ink and color on vellum",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/fb2315a8-9c8d-e553-773b-434d01f5a767/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/108747",
+        "fame": "general"
+      },
+      {
+        "id": "aic:4002",
+        "title": "Page from a Copy of the Qur'an",
+        "artist": "Iraq",
+        "date": "Abbasid Caliphate (750–1258), 9th century",
+        "medium": "Ink, colors, and gold on parchment",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/50e17d48-00fa-0dee-4429-f749a8ae1c31/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/4002",
+        "fame": "general"
+      },
+      {
+        "id": "aic:108845",
+        "title": "Page from a Copy of the Qur'an",
+        "artist": "Spain",
+        "date": "13th/14th century",
+        "medium": "Ink, colors, and gold on vellum",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/2dbb733a-3563-e73c-c608-3a09bd2f5628/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/108845",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "chinese-landscape-1",
+    "themeId": "chinese-landscape",
+    "title": "Chinese Landscape Painting",
+    "era": "Song — Qing Dynasties",
+    "blurb": "Mountains in mist, painted with a single breath of ink.",
+    "accent": "#2a3a32",
+    "accent2": "#0e150f",
+    "pieces": [
+      {
+        "id": "cma:132837",
+        "title": "Album of Seasonal Landscapes, Leaf A (previous leaf 4)",
+        "artist": "Xiao Yuncong (Chinese, 1596–1673)",
+        "date": "1668",
+        "medium": "album leaf; ink and light color on paper",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1955.302.4/1955.302.4_web.jpg",
+        "link": "https://clevelandart.org/art/1955.302.4",
+        "fame": "anchor"
+      },
+      {
+        "id": "cma:132841",
+        "title": "Album of Seasonal Landscapes, Leaf H (previous leaf 8)",
+        "artist": "Xiao Yuncong (Chinese, 1596–1673)",
+        "date": "1668",
+        "medium": "album leaf; ink and light color on paper",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1955.302.8/1955.302.8_web.jpg",
+        "link": "https://clevelandart.org/art/1955.302.8",
+        "fame": "general"
+      },
+      {
+        "id": "cma:149603",
+        "title": "Paintings after Ancient Masters",
+        "artist": "Chen Hongshou (Chinese, 1598/99–1652)",
+        "date": "1598–1652",
+        "medium": "Double album with twenty-two leaves; ink or ink and color on silk",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1979.27/1979.27_web.jpg",
+        "link": "https://clevelandart.org/art/1979.27",
+        "fame": "general"
+      },
+      {
+        "id": "cma:132908",
+        "title": "Landscape after Guo Zhongshu",
+        "artist": "Bada Shanren (Chinese, 1626–1705)",
+        "date": "c. 1680–1705",
+        "medium": "Hanging scroll; ink on paper",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1955.36/1955.36_web.jpg",
+        "link": "https://clevelandart.org/art/1955.36",
+        "fame": "general"
+      },
+      {
+        "id": "cma:149413",
+        "title": "River Village:  Fisherman's Joy",
+        "artist": "Zhao Mengfu (Chinese, 1254–1322)",
+        "date": "c. 1302–3",
+        "medium": "Fan painting mounted as album leaf; ink and color on silk",
+        "source": "Cleveland Museum of Art",
+        "image": "https://openaccess-cdn.clevelandart.org/1978.66/1978.66_web.jpg",
+        "link": "https://clevelandart.org/art/1978.66",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "japanese-zen-ink-1",
+    "themeId": "japanese-zen-ink",
+    "title": "Japanese Zen Ink Painting",
+    "era": "Muromachi Period · 1336 — 1573",
+    "blurb": "A few strokes, a lot of empty space — painting as meditation.",
+    "accent": "#3a3a3a",
+    "accent2": "#141414",
+    "pieces": [
+      {
+        "id": "vam:O187276",
+        "title": "Untitled",
+        "artist": "Bose, Nandalal",
+        "date": "late 1920s to early 1930s",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2014HC2289/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O187276",
+        "fame": "anchor"
+      },
+      {
+        "id": "vam:O76815",
+        "title": "Shikami",
+        "artist": "Deme Yukan",
+        "date": "16th century",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2006AT6559/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O76815",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O446937",
+        "title": "Untitled",
+        "artist": "Suzuki Nohjin",
+        "date": "2000",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2006BL1735/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O446937",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O446936",
+        "title": "Untitled",
+        "artist": "Suzuki Nohjin",
+        "date": "2000",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2006BL1740/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O446936",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "indian-miniature-1",
+    "themeId": "indian-miniature",
+    "title": "Indian Miniature Painting",
+    "era": "Mughal & Rajput Courts",
+    "blurb": "Jewel-bright courts and gardens, painted small enough to hold in one hand.",
+    "accent": "#5a2a3a",
+    "accent2": "#1f0e15",
+    "pieces": [
+      {
+        "id": "wikimedia:Miniature painting of Raja Jaswant Singh of Nabha seated and leaning against a bolster, inscribed in Perso-Arabic script.jpg",
+        "title": "Miniature painting of Raja Jaswant Singh of Nabha seated and leaning against a bolster, inscribed in Perso-Arabic script",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Miniature_painting_of_Raja_Jaswant_Singh_of_Nabha_seated_and_leaning_against_a_bolster%2C_inscribed_in_Perso-Arabic_script.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AMiniature%20painting%20of%20Raja%20Jaswant%20Singh%20of%20Nabha%20seated%20and%20leaning%20against%20a%20bolster%2C%20inscribed%20in%20Perso-Arabic%20script.jpg",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:An Indian miniature painting depicting ten gurus.jpg",
+        "title": "An Indian miniature painting depicting ten gurus",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/An_Indian_miniature_painting_depicting_ten_gurus.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AAn%20Indian%20miniature%20painting%20depicting%20ten%20gurus.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Indian minature painting of Gurbaksh Singh Kanhaiya.jpg",
+        "title": "Indian minature painting of Gurbaksh Singh Kanhaiya",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Indian_minature_painting_of_Gurbaksh_Singh_Kanhaiya.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AIndian%20minature%20painting%20of%20Gurbaksh%20Singh%20Kanhaiya.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Guru Angad miniature painting.jpg",
+        "title": "Guru Angad miniature painting",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Guru_Angad_miniature_painting.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AGuru%20Angad%20miniature%20painting.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Equestrian miniature painting of Guru Gobind Singh with a parasol attendant, Pahari School, ca.jpg",
+        "title": "Equestrian miniature painting of Guru Gobind Singh with a parasol attendant, Pahari School, ca",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Equestrian_miniature_painting_of_Guru_Gobind_Singh_with_a_parasol_attendant%2C_Pahari_School%2C_ca.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AEquestrian%20miniature%20painting%20of%20Guru%20Gobind%20Singh%20with%20a%20parasol%20attendant%2C%20Pahari%20School%2C%20ca.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:Indian miniature painting of Jai Singh Kanhaiya.jpg",
+        "title": "Indian miniature painting of Jai Singh Kanhaiya",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Indian_miniature_painting_of_Jai_Singh_Kanhaiya.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3AIndian%20miniature%20painting%20of%20Jai%20Singh%20Kanhaiya.jpg",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "pre-columbian-1",
+    "themeId": "pre-columbian",
+    "title": "Pre-Columbian Art",
+    "era": "Maya, Aztec & Inca",
+    "blurb": "Jade, gold, and stone carved for gods that predate the conquest.",
+    "accent": "#3a2a1a",
+    "accent2": "#150f08",
+    "pieces": [
+      {
+        "id": "harvard:228077",
+        "title": "Axolotl Ornament",
+        "artist": "Unidentified Artist",
+        "date": "before 1492",
+        "medium": "Gold",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:INV147028_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/228077",
+        "fame": "anchor"
+      },
+      {
+        "id": "harvard:55075",
+        "title": "Ear Plug with Relief Decorations",
+        "artist": "Unidentified Artist",
+        "date": "1300-1438",
+        "medium": "Gold, silver and copper alloy",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:DDC105098_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/55075",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:228136",
+        "title": "Lying Figure",
+        "artist": "Unidentified Artist",
+        "date": "before 1962",
+        "medium": "Terracotta with pigment",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:INV147399_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/228136",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "african-sculpture-1",
+    "themeId": "african-sculpture",
+    "title": "African Sculpture & Masks",
+    "era": "Various, pre-colonial — 20th c.",
+    "blurb": "Carved wood and bronze that reshaped what 20th-century art could be.",
+    "accent": "#3a2418",
+    "accent2": "#150d08",
+    "pieces": [
+      {
+        "id": "harvard:380635",
+        "title": "Untitled (bleed-through of previous page, left page); Untitled (\"children's masks\" inflatable with crowd, right page)",
+        "artist": "Otto Piene",
+        "date": "1978",
+        "medium": "Colored marker on paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:774426",
+        "link": "https://www.harvardartmuseums.org/collections/object/380635",
+        "fame": "anchor"
+      },
+      {
+        "id": "harvard:195244",
+        "title": "H. Naylor Fitzhugh (1909-1992)",
+        "artist": "Charles Lilly",
+        "date": "1994",
+        "medium": "Acrylic paint on canvas",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:LEG274524",
+        "link": "https://www.harvardartmuseums.org/collections/object/195244",
+        "fame": "anchor"
+      },
+      {
+        "id": "harvard:291837",
+        "title": "Bust of an African",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "Terracotta, traces of paint",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:VRS50286_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/291837",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:92131",
+        "title": "African Tour",
+        "artist": "Unidentified Artist",
+        "date": "",
+        "medium": "",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:INV211456_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/92131",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:174989",
+        "title": "Mask",
+        "artist": "Unknown",
+        "date": "4th-2nd century BCE",
+        "medium": "Terracotta",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:INV042787_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/174989",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:380636",
+        "title": "Untitled (bleed-through of previous page, left page); Untitled (\"big faces\" inflatable with crowd, right page)",
+        "artist": "Otto Piene",
+        "date": "1978",
+        "medium": "Black and red marker on paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:774427",
+        "link": "https://www.harvardartmuseums.org/collections/object/380636",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:199-item_GPP4J5MPT7ZYXDYCYVBQPWQSVMNFYFRA",
+        "title": "Madunge-Maske der Bavili",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "German Documentation Center for Art History - Marburg Picture Index",
+        "image": "http://www.bildindex.de/bilder/d/fm627576",
+        "link": "http://www.bildindex.de/document/obj20449308",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:199-item_P6PXGEBMC3T6AXQZWM6B5OYOSHEP2KSE",
+        "title": "Maske",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "German Documentation Center for Art History - Marburg Picture Index",
+        "image": "http://www.bildindex.de/bilder/d/fm627558",
+        "link": "http://www.bildindex.de/document/obj20449309",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:91619-SMVK_EM_objekt_1008974",
+        "title": "skulptur, dansstav, sculpture, kebe-kebe",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Museum of Ethnography",
+        "image": "https://collections.smvk.se/carlotta-em/web/image/zoom/3020417/bild-1994.11.0100.jpg",
+        "link": "https://collections.smvk.se/carlotta-em/web/object/1008974",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:437-item_MDYNIL2F42UZRDDD2I7QLTE7BHOKK5JS",
+        "title": "Dresden, Museum of Ethnology Dresden. Distribution map for sculptures, masks and other figurative representations in black African cultures. Created by E. von Sydow, recording in 1952",
+        "artist": "Unbekannter Fotograf (Herstellung) (Fotograf)",
+        "date": "",
+        "medium": "",
+        "source": "Deutsche Fotothek",
+        "image": "http://fotothek.slub-dresden.de/fotos/df_hauptkatalog_0095291.jpg",
+        "link": "http://www.deutschefotothek.de/documents/obj/90054632",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "oceanic-art-1",
+    "themeId": "oceanic-art",
+    "title": "Oceanic Art",
+    "era": "Pacific Islands, various",
+    "blurb": "Carving and barkcloth from the world's most widely scattered cultures.",
+    "accent": "#1e3a32",
+    "accent2": "#0a1512",
+    "pieces": [
+      {
+        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_116257",
+        "title": "Oceanic",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Royal Museums Greenwich",
+        "image": "http://collections.rmg.co.uk/mediaLib/337/media-337145/large.jpg",
+        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_116257",
+        "fame": "anchor"
+      },
+      {
+        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114961",
+        "title": "Oceanic off Fastnet",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Royal Museums Greenwich",
+        "image": "http://collections.rmg.co.uk/mediaLib/336/media-336657/large.jpg",
+        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114961",
+        "fame": "anchor"
+      },
+      {
+        "id": "met:313658",
+        "title": "'Otua fefine (deity figure)",
+        "artist": "Ha'apai Islands artist",
+        "date": "Early 19th century",
+        "medium": "Whale ivory",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/ao/original/DP-16434-001.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/313658",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114960",
+        "title": "Oceanic Adriatic off Fastnet Rock",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Royal Museums Greenwich",
+        "image": "http://collections.rmg.co.uk/mediaLib/336/media-336655/large.jpg",
+        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114960",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114974",
+        "title": "Bridge of Oceanic White Star",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Royal Museums Greenwich",
+        "image": "http://collections.rmg.co.uk/mediaLib/336/media-336670/large.jpg",
+        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114974",
+        "fame": "general"
+      },
+      {
+        "id": "met:313629",
+        "title": "House post figure",
+        "artist": "Lake Sentani artist",
+        "date": "19th century",
+        "medium": "Wood",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/ao/original/DP-23872-001.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/313629",
+        "fame": "general"
+      },
+      {
+        "id": "met:250487",
+        "title": "Glass bowl fragment with gold leaf and painted decoration",
+        "artist": "Unknown",
+        "date": "3rd–4th century CE",
+        "medium": "Glass, gold, paint",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/gr/original/DP107355.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/250487",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_125304",
+        "title": "Oceanic",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Royal Museums Greenwich",
+        "image": "http://collections.rmg.co.uk/mediaLib/342/media-342396/large.jpg",
+        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_125304",
+        "fame": "general"
+      },
+      {
+        "id": "met:311950",
+        "title": "Krar (mask)",
+        "artist": "Mabuiag Island artist",
+        "date": "mid to late 19th century",
+        "medium": "Turtle shell, wood, cassowary feathers, fiber, resin, shell, paint",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/ao/original/DP148295.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/311950",
+        "fame": "general"
+      },
+      {
+        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_116258",
+        "title": "Oceanic II",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Royal Museums Greenwich",
+        "image": "http://collections.rmg.co.uk/mediaLib/337/media-337147/large.jpg",
+        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_116258",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "early-photography-1",
+    "themeId": "early-photography",
+    "title": "Early Photography",
+    "era": "1840 — 1920",
+    "blurb": "The first machines for capturing light — portraits, streets, and silver.",
+    "accent": "#3a3a32",
+    "accent2": "#15150f",
+    "pieces": [
+      {
+        "id": "met:286212",
+        "title": "Sir William Allen",
+        "artist": "Hill and Adamson",
+        "date": "ca. 1845",
+        "medium": "Salted paper print from paper negative",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/ph/original/DP-19600-130.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/286212",
+        "fame": "anchor"
+      },
+      {
+        "id": "met:445246",
+        "title": "Panel from a Mantle or Apron",
+        "artist": "Unknown",
+        "date": "early 17th century",
+        "medium": "Cotton, tasar silk; plain weave, embroidered",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/is/original/DP229986.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/445246",
+        "fame": "general"
+      },
+      {
+        "id": "met:282022",
+        "title": "[Newhaven Fishwives]",
+        "artist": "Hill and Adamson",
+        "date": "ca. 1845",
+        "medium": "Salted paper print from paper negative",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/ph/original/DP352694.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/282022",
+        "fame": "general"
+      },
+      {
+        "id": "met:917927",
+        "title": "[Merchants' Carnival Portrait: Geo. H. Van Norman Photography Studio, Waltham, Massachusetts]",
+        "artist": "George H. Van Norman",
+        "date": "1880s–1890s",
+        "medium": "Albumen silver print",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/ph/original/DP-43423-011.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/917927",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "depression-era-photography-1",
+    "themeId": "depression-era-photography",
+    "title": "Depression-Era American Photography",
+    "era": "1930s",
+    "blurb": "Dust, migration, and dignity — photography as social witness.",
+    "accent": "#3a3228",
+    "accent2": "#15120d",
+    "pieces": [
+      {
+        "id": "aic:6565",
+        "title": "American Gothic",
+        "artist": "Grant Wood (American, 1891–1942)",
+        "date": "1930",
+        "medium": "Oil on Beaver Board",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/b272df73-a965-ac37-4172-be4e99483637/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/6565",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:245223",
+        "title": "Girl at Gee's Bend, Alabama [Artelia Bendolph]",
+        "artist": "Arthur Rothstein",
+        "date": "April 1937",
+        "medium": "Gelatin silver print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/5219b4ae-a3d0-59f5-db39-deb069db2d1e/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/245223",
+        "fame": "general"
+      },
+      {
+        "id": "aic:11",
+        "title": "Self-Portrait",
+        "artist": "Walter Shirlaw (American, 1838–1909)",
+        "date": "1878",
+        "medium": "Oil on canvas",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/11",
+        "fame": "general"
+      },
+      {
+        "id": "aic:207375",
+        "title": "Study for Actual Size (Munich Depression)",
+        "artist": "Michael Heizer",
+        "date": "1969",
+        "medium": "Gelatin silver prints (10) mounted with electrical tape on board",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/a22c9f93-cc42-6cc6-8f2e-3ccbd1636297/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/207375",
+        "fame": "general"
+      },
+      {
+        "id": "aic:34149",
+        "title": "Mid American",
+        "artist": "Ed Paschke",
+        "date": "1969",
+        "medium": "Oil on canvas",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/3c8a4360-27d8-bba2-a434-8b04dbe3f829/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/34149",
+        "fame": "general"
+      },
+      {
+        "id": "aic:77732",
+        "title": "Fragment (Furnishing Fabric)",
+        "artist": "Manufactured by the American Print Works (American, founded 1876)",
+        "date": "c. 1876",
+        "medium": "Cotton, plain weave; roller printed",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/acbbc5a8-ffa4-e22f-46d9-56900858d3e7/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/77732",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "bauhaus-1",
+    "themeId": "bauhaus",
+    "title": "Bauhaus & Modernist Design",
+    "era": "1919 — 1933",
+    "blurb": "Form follows function — primary colour and geometry remaking everyday objects.",
+    "accent": "#3a2222",
+    "accent2": "#150c0c",
+    "pieces": [
+      {
+        "id": "europeana:2024918-photography_ProvidedCHO_The_Israel_Museum__Jerusalem_388498",
+        "title": "Proposals for a Habitat",
+        "artist": "Absalon",
+        "date": "1992",
+        "medium": "",
+        "source": "The Israel Museum, Jerusalem",
+        "image": "https://www.imj.org.il/sites/default/files/collections/Absalon,%20Proposals%20for%20a%20Habit,%201992.jpg",
+        "link": "https://www.imj.org.il/en/collections/388498",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:11856",
+        "title": "The Loop: Chicago",
+        "artist": "Ray K. Metzker",
+        "date": "1958",
+        "medium": "Gelatin silver print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/2411f43a-677a-8e6d-7823-d4a3f1353c3e/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/11856",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:29276",
+        "title": "Untitled",
+        "artist": "László Moholy-Nagy",
+        "date": "c. 1940",
+        "medium": "Gelatin silver photogram",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/a24299bf-06d7-9d0a-8a1d-02e25c3c1412/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/29276",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:377999",
+        "title": "Design for Bauhaus Exhibition signage",
+        "artist": "Herbert Bayer",
+        "date": "1925",
+        "medium": "Graphite, ink, and opaque watercolor on paper cardstock",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:784047",
+        "link": "https://www.harvardartmuseums.org/collections/object/377999",
+        "fame": "general"
+      },
+      {
+        "id": "aic:20456",
+        "title": "Untitled",
+        "artist": "Charles Swedlund",
+        "date": "1962",
+        "medium": "Chromogenic print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/28b416e1-8594-c755-3af2-ebf3eaaca457/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/20456",
+        "fame": "general"
+      },
+      {
+        "id": "aic:104896",
+        "title": "Untitled",
+        "artist": "László Moholy-Nagy",
+        "date": "1941",
+        "medium": "Gelatin silver photogram",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/064e57f8-5ba1-c5e5-ef09-1ef71b212e74/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/104896",
+        "fame": "general"
+      },
+      {
+        "id": "aic:18975",
+        "title": "Midwest Landscape #73",
+        "artist": "Art Sinsabaugh",
+        "date": "1963",
+        "medium": "Gelatin silver print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/5643d48a-180e-06c0-8d9f-5319d62c1cb3/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/18975",
+        "fame": "general"
+      },
+      {
+        "id": "aic:199263",
+        "title": "BAUHAUS. Zeitschrift für Gestaltung",
+        "artist": "Walter Gropius (American, born Germany, 1883–1969)",
+        "date": "1926/31",
+        "medium": "Periodicals",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/533449c7-73ed-6562-653b-4e3190621c1a/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/199263",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:218309",
+        "title": "Gropius Residence, Lincoln, Massachusetts, 1938: View from garage toward house",
+        "artist": "Paul Davis",
+        "date": "c. 1938",
+        "medium": "",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:INV202120_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/218309",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "pop-art-1",
+    "themeId": "pop-art",
+    "title": "Pop Art",
+    "era": "1950s — 1960s",
+    "blurb": "Soup cans and comic strips — consumer culture turned into fine art.",
+    "accent": "#4a2a3a",
+    "accent2": "#1a0e15",
+    "pieces": [
+      {
+        "id": "aic:229355",
+        "title": "Flowers",
+        "artist": "Andy Warhol",
+        "date": "1964",
+        "medium": "Fluorescent paint and silkscreen ink on linen",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/9a9737e3-c296-a2b5-4d76-d88f50a61ff8/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/229355",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:229361",
+        "title": "Four Mona Lisas",
+        "artist": "Andy Warhol",
+        "date": "1978",
+        "medium": "Acrylic and silkscreen ink on linen",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/867641a6-6b70-ae7d-f3f8-e8210e56694e/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/229361",
+        "fame": "anchor"
+      },
+      {
+        "id": "wikimedia:Pintura em Pop Art para Elephant Parade.jpg",
+        "title": "Pintura em Pop Art para Elephant Parade",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Pintura_em_Pop_Art_para_Elephant_Parade.jpg",
+        "link": "https://commons.wikimedia.org/wiki/File%3APintura%20em%20Pop%20Art%20para%20Elephant%20Parade.jpg",
+        "fame": "general"
+      },
+      {
+        "id": "aic:229379",
+        "title": "Mr. Pointy",
+        "artist": "Takashi Murakami",
+        "date": "2011",
+        "medium": "Acrylic on canvas",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/5fa7667c-0e32-1c68-7495-5d8615ef7d4a/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/229379",
+        "fame": "general"
+      },
+      {
+        "id": "aic:229356",
+        "title": "Twelve Jackies",
+        "artist": "Andy Warhol",
+        "date": "1964",
+        "medium": "Silkscreen ink on primed linen, twelve joined canvases",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/239fba82-6991-9813-a555-5e8b7503be0e/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/229356",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O72161",
+        "title": "The Diploma",
+        "artist": "Hockney, David",
+        "date": "1962",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2021MW2495/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O72161",
+        "fame": "general"
+      },
+      {
+        "id": "aic:229364",
+        "title": "Woman III",
+        "artist": "Roy Lichtenstein",
+        "date": "1982",
+        "medium": "Oil and Magna on canvas",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/e7131cb7-0d1d-090f-fb85-b4cf0f5166b2/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/229364",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O189164",
+        "title": "Very Metal Noise Pollution",
+        "artist": "Designers Republic",
+        "date": "1989",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2006BF3102/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O189164",
+        "fame": "general"
+      },
+      {
+        "id": "vam:O552682",
+        "title": "Pop Art Redefined",
+        "artist": "Paolozzi, Eduardo (Sir)",
+        "date": "1971",
+        "medium": "",
+        "source": "Victoria and Albert Museum",
+        "image": "https://framemark.vam.ac.uk/collections/2011EY3858/full/full/0/default.jpg",
+        "link": "https://collections.vam.ac.uk/item/O552682",
+        "fame": "general"
+      },
+      {
+        "id": "aic:229363",
+        "title": "Artist's Studio \"Foot Medication\"",
+        "artist": "Roy Lichtenstein",
+        "date": "1974",
+        "medium": "Oil and Magna on canvas",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/249173c2-0013-4624-211c-3e8fcf335048/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/229363",
+        "fame": "general"
+      }
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+name: Monthly art pool top-up
+
+on:
+  schedule:
+    # 06:00 UTC on the 1st of each month.
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+    inputs:
+      target_pieces:
+        description: "Roughly how many new pieces to add this run"
+        required: false
+        default: "30"
+      theme:
+        description: "Restrict to a single theme id (leave blank for normal breadth-first top-up)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-art:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run fetch-art (small monthly batch)
+        env:
+          SMITHSONIAN_API_KEY: ${{ secrets.SMITHSONIAN_API_KEY }}
+          HARVARD_API_KEY: ${{ secrets.HARVARD_API_KEY }}
+          EUROPEANA_API_KEY: ${{ secrets.EUROPEANA_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          FETCH_ART_TARGET_PIECES: ${{ github.event.inputs.target_pieces || '30' }}
+        # Note: deliberately not `npm run fetch-art` — that script uses
+        # `--env-file=.env.local`, which is gitignored and doesn't exist on
+        # the runner, and node hard-fails if the file is missing. CI secrets
+        # above land in process.env directly, which the script reads either way.
+        run: |
+          if [ -n "${{ github.event.inputs.theme }}" ]; then
+            npx tsx scripts/fetch-art.ts --theme="${{ github.event.inputs.theme }}"
+          else
+            npx tsx scripts/fetch-art.ts
+          fi
+
+      - name: Build to verify the new data doesn't break anything
+        run: npm run build
+
+      - name: Commit and push if the pool changed
+        run: |
+          git config user.name "art-frame-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add src/data/collections.json src/data/theme-coverage.json
+          if git diff --cached --quiet; then
+            echo "No new pieces this run."
+          else
+            git commit -m "Monthly art pool top-up"
+            git push
+          fi

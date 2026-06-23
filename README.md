@@ -1,9 +1,10 @@
 # Art Frame
 
-A single-page art display for a wall-mounted screen. It cycles slowly through
-collections of artwork — grouped by era/style, ~3-15 pieces at a time — showing
-the title, artist, date, and a QR code linking to a museum or Wikipedia page
-for further reading.
+A single-page art display for a wall-mounted screen. It meanders slowly
+through collections of artwork — grouped by era/style/region/medium, 3-10
+pieces at a time — showing the title, artist, date, medium, and source
+museum, plus a QR code linking to a museum or Wikipedia page for further
+reading.
 
 ## Running locally
 
@@ -17,29 +18,82 @@ Open [http://localhost:3000](http://localhost:3000).
 - `Space` — play/pause
 - `←` / `→` — previous/next piece
 - `f` — toggle fullscreen
+- `l` — download the view log as a CSV
 - Mouse move / touch — reveal the control bar (auto-hides after a few seconds)
+
+## How it picks what to show
+
+There's no database and no live API calls from the deployed app — it's a
+static site reading a JSON file that's grown offline.
+
+- **The pool** (`src/data/collections.json`) is a flat list of collections,
+  each tagged with a `themeId` from the ~40-entry taxonomy in
+  `src/data/theme-taxonomy.ts` (eras, movements, regions, media — ancient to
+  contemporary). Each piece is marked `fame: "anchor"` (a recognizable,
+  deliberately-included work) or `"general"` (the long tail) — collections
+  aim for roughly 20% anchor / 80% general.
+- **The fetch pipeline** (`scripts/fetch-art.ts`, run via `npm run fetch-art`)
+  pulls new collections from open museum/archive APIs (see
+  `free_art_apis.md` for the source list) and appends to the pool. It always
+  fills the **least-covered theme first** (tracked in
+  `src/data/theme-coverage.json`) — so the pool grows breadth-first across
+  the whole taxonomy rather than piling up on one era. It never removes
+  existing collections.
+- **The tour** (`src/lib/tour.ts`, `src/hooks/useTour.ts`) is what the app
+  actually plays: a shuffled walk through the collection pool, with an
+  occasional (~1 in 8) deliberate replay of something already seen this lap.
+  Position is persisted in `localStorage`, so a reload continues the tour
+  instead of restarting it.
+- **The view log** (`src/lib/view-log.ts`) records every piece actually
+  shown (title, artist, source, link, timestamp) to IndexedDB — sized for
+  years of continuous logging, unlike `localStorage`. Press `l` or use the
+  download icon in the control bar to export it as CSV.
 
 ## Structure
 
-- `src/data/collections.ts` — the art data: collections, each with an era,
-  blurb, and pieces (title/artist/date/medium/image/link). This is the only
-  data source the app reads from; there's no database.
-- `src/components/ArtFrame.tsx` — the slideshow itself (timing, transitions,
-  controls).
-- Display settings (minutes per piece, whether to show captions/intros) are
-  constants at the top of `ArtFrame.tsx`.
+- `src/data/types.ts` — the shared shapes (`ArtPiece`, `Collection`, `Theme`, …).
+- `src/data/theme-taxonomy.ts` — the fixed menu of themes the fetch pipeline draws from.
+- `src/data/collections.json` / `theme-coverage.json` — the actual data, regenerated/extended by the fetch script.
+- `scripts/fetch-art.ts` + `scripts/sources/*.ts` — one adapter module per API source.
+- `src/components/ArtFrame.tsx` — the slideshow itself (timing, transitions, controls).
+- `src/lib/tour.ts`, `src/hooks/useTour.ts` — the meandering playback order + persistence.
+- `src/lib/view-log.ts` — the IndexedDB view log.
+- `src/lib/wake-lock.ts` — keeps the screen from sleeping while this is running.
+- Display settings (minutes per piece, whether to show captions/intros) are constants at the top of `ArtFrame.tsx`.
 
-`Art Frame.dc.html` / `support.js` / `.thumbnail` are the original Claude
-design-tool prototype, kept only as a visual reference — they aren't part of
-the deployed app.
+## Growing the collection pool
 
-## Adding/expanding collections
+```bash
+npm run fetch-art
+```
 
-Edit `src/data/collections.ts` directly, or see the project discussion about
-a script that pulls structured data (title/artist/date/image/link) from open
-art APIs (Wikidata, museum open-access APIs) to help grow this file over time.
+Reads `SMITHSONIAN_API_KEY`, `HARVARD_API_KEY`, `EUROPEANA_API_KEY` from
+`.env.local` (gitignored — see `API keys.md` for where to register; Unsplash
+needs a key too but isn't registered yet, so it's stubbed and skipped).
+Sources that are reachable but currently can't produce usable results are
+paused — see the comment at the top of that source's adapter in
+`scripts/sources/` for why. Currently paused: Library of Congress (behind
+bot-protection), Whitney (their public dataset excludes images/links), and
+Smithsonian (their image CDN sends no `Content-Type`, which Chrome's Opaque
+Response Blocking rejects outright — confirmed, not a transient issue, so the
+11 already-fetched Smithsonian pieces and the collection built entirely from
+them were removed from the pool). Rijksmuseum needed a 3-hop Linked Art
+lookup (object → VisualItem → DigitalObject → actual image URL) but is fixed
+and active.
+
+Options: `npm run fetch-art -- --theme=<id>` restricts the run to one named
+theme (a deliberate top-up); `--target=N` (or the `FETCH_ART_TARGET_PIECES`
+env var) overrides how many new pieces to aim for, default 165.
+
+This also runs automatically — `.github/workflows/fetch-art.yml` fires
+monthly (1st of the month) adding a small batch (~30 pieces), or trigger it
+manually from the Actions tab. It needs the three API keys above set as
+**repository secrets** (Settings → Secrets and variables → Actions) — they're
+never used at runtime by the deployed app, only by this job.
 
 ## Deploying
 
 Push to GitHub and import the repo on [Vercel](https://vercel.com/new) — no
-environment variables or backend services required.
+environment variables or backend services required for the deployed app
+itself (the API keys above are only used when *running the fetch script*,
+never at runtime).
