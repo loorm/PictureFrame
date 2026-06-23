@@ -37,7 +37,12 @@ export function useTour(collections: Collection[]) {
   useEffect(() => {
     if (hydrated.current) return;
     hydrated.current = true;
-    setState(loadTourState(collections) ?? createInitialTourState(collections));
+    const loaded = loadTourState(collections) ?? createInitialTourState(collections);
+    // Persist immediately — otherwise a reload before the first navigation (e.g.
+    // within the first MINUTES_PER_PIECE) finds nothing saved and reshuffles instead
+    // of resuming.
+    saveTourState(loaded);
+    setState(loaded);
     setReady(true);
   }, [collections]);
 

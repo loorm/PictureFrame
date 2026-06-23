@@ -17,10 +17,52 @@ const INTRO_DURATION_MS = 30_000;
 const MENU_IDLE_MS = 3_200;
 const FADE_RESET_MS = 2_000;
 
+const IMAGE_LOAD_TIMEOUT_MS = 10_000;
+
 function qrSrc(link: string) {
   return (
     "https://api.qrserver.com/v1/create-qr-code/?size=170x170&margin=0&format=svg&data=" +
     encodeURIComponent(link)
+  );
+}
+
+/**
+ * A piece whose image hangs (never loads, never errors) would otherwise show a
+ * blank rectangle for its whole display window — a real risk across 180+
+ * external hosts over weeks of unattended runtime. A timeout treats "never
+ * resolved" the same as a load error.
+ */
+function ArtImage({ piece, onFail }: { piece: FlatPiece; onFail: (url: string) => void }) {
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    timeoutRef.current = setTimeout(() => onFail(piece.image), IMAGE_LOAD_TIMEOUT_MS);
+    return () => {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
+  }, [piece.image, onFail]);
+
+  const clearLoadTimeout = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+  };
+
+  return (
+    // next/image needs every source domain allowlisted up front; art images come
+    // from many open-collection hosts, so a plain <img> is simpler here.
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={piece.image}
+      alt={piece.title}
+      className={styles.artImg}
+      onLoad={clearLoadTimeout}
+      onError={() => {
+        clearLoadTimeout();
+        onFail(piece.image);
+      }}
+    />
   );
 }
 
@@ -179,17 +221,7 @@ export default function ArtFrame() {
         </div>
       );
     }
-    return (
-      // next/image needs every source domain allowlisted up front; art images come
-      // from many open-collection hosts, so a plain <img> is simpler here.
-      // eslint-disable-next-line @next/next/no-img-element
-      <img
-        src={piece.image}
-        alt={piece.title}
-        className={styles.artImg}
-        onError={() => markFailed(piece.image)}
-      />
-    );
+    return <ArtImage piece={piece} onFail={markFailed} />;
   };
 
   return (
