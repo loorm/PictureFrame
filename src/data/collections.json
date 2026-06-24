@@ -660,127 +660,6 @@
     ]
   },
   {
-    "id": "ashcan-school-1",
-    "themeId": "ashcan-school",
-    "title": "Ashcan School",
-    "era": "1890 — 1920",
-    "blurb": "Tenements, prizefights, and city streets — American realism unvarnished.",
-    "accent": "#3a2a22",
-    "accent2": "#150f0a",
-    "pieces": [
-      {
-        "id": "harvard:203505",
-        "title": "The Broken Wall (Episode 5) from the \"Tales of Ise\" (Ise monogatari)",
-        "artist": "Tosa School",
-        "date": "Late 16th to early 17th century",
-        "medium": "One of twelve album leaves; ink, color and gold on paper",
-        "source": "Harvard Art Museums",
-        "image": "https://nrs.harvard.edu/urn-3:HUAM:820211",
-        "link": "https://www.harvardartmuseums.org/collections/object/203505",
-        "fame": "anchor"
-      },
-      {
-        "id": "harvard:203504",
-        "title": "A Prisoner for Love (Episode 6) from the \"Tales of Ise\" (Ise monogatari)",
-        "artist": "Tosa School",
-        "date": "Late 16th-early 17th century",
-        "medium": "One of twelve album leaves; ink, color and gold on paper",
-        "source": "Harvard Art Museums",
-        "image": "https://nrs.harvard.edu/urn-3:HUAM:820212",
-        "link": "https://www.harvardartmuseums.org/collections/object/203504",
-        "fame": "general"
-      },
-      {
-        "id": "harvard:203503",
-        "title": "Lovers Parting at Dawn (Episode 14) from the \"Tales of Ise\" (Ise monogatari)",
-        "artist": "Tosa School",
-        "date": "Late 16th to early 17th century",
-        "medium": "One of twelve album leaves; ink, color and gold on paper",
-        "source": "Harvard Art Museums",
-        "image": "https://nrs.harvard.edu/urn-3:HUAM:820209",
-        "link": "https://www.harvardartmuseums.org/collections/object/203503",
-        "fame": "general"
-      },
-      {
-        "id": "harvard:191751",
-        "title": "Set of 12 paintings: Scenes from \"Tales of Ise\" (Ise monogatari)",
-        "artist": "Tosa School",
-        "date": "Late 16th to early 17th century",
-        "medium": "12 album leaves; ink, color and gold on paper",
-        "source": "Harvard Art Museums",
-        "image": "https://nrs.harvard.edu/urn-3:HUAM:VRS46650_dynmc",
-        "link": "https://www.harvardartmuseums.org/collections/object/191751",
-        "fame": "general"
-      },
-      {
-        "id": "harvard:342199",
-        "title": "Gloucester Harbor at Sunset",
-        "artist": "Fitz Henry Lane",
-        "date": "c. 1859",
-        "medium": "oil on canvas",
-        "source": "Harvard Art Museums",
-        "image": "https://nrs.harvard.edu/urn-3:HUAM:LEG281994",
-        "link": "https://www.harvardartmuseums.org/collections/object/342199",
-        "fame": "general"
-      }
-    ]
-  },
-  {
-    "id": "abstract-expressionism-1",
-    "themeId": "abstract-expressionism",
-    "title": "Abstract Expressionism",
-    "era": "1940s — 1960s",
-    "blurb": "Gesture as subject — paint thrown, dripped, and scraped into feeling.",
-    "accent": "#2a2a2a",
-    "accent2": "#0d0d0d",
-    "pieces": [
-      {
-        "id": "europeana:1316-https___www_searchculture_gr_aggregator_edm_momus_000179_8815",
-        "title": "Χωρίς τίτλο",
-        "artist": "http://semantics.gr/authorities/searchculture-persons/1349402168",
-        "date": "",
-        "medium": "",
-        "source": "Metropolitan Organisation of Museums of Visual Arts of Thessaloniki – MOMus",
-        "image": "http://dam.momus.gr/files/original/5bfd6024a06e242f4cea4ef78b82d5c09b681a82.jpg",
-        "link": "https://www.momus.gr/collections/0008815",
-        "fame": "anchor"
-      },
-      {
-        "id": "europeana:951-Culturalia_89595769_ecaf_40ee_b471_5a0f7e09451d",
-        "title": "Față: Drumuri",
-        "artist": "Ivancenco Gheorghe",
-        "date": "",
-        "medium": "",
-        "source": "Gavrilă Simion Eco-Museum Research Institute Tulcea",
-        "image": "https://resource.culturalia.ro/public/2000/01/01/_TL-ICEM_2019_10_octombrie_Tocanie_Catalogare_Topoleanu%20Florin_Docpat_Octombrie%202019__docpatv491_DOCPATv491/Imagini/FBE3791178E04D47B3FBA3305E7432B1.tif",
-        "link": "https://culturalia.ro/entities/89595769-ecaf-40ee-b471-5a0f7e09451d/view",
-        "fame": "general"
-      },
-      {
-        "id": "europeana:2063628-IRE_280_010",
-        "title": "Medusa",
-        "artist": "http://data.europeana.eu/agent/44002",
-        "date": "",
-        "medium": "",
-        "source": "Crawford Gallery",
-        "image": "http://www.crawfordartgallery.ie/ImagesCrawford/PaintingImages/Hughie-ODonoghue---Medusa-2005-2006.jpg",
-        "link": "https://www.europeana.eu/item/2063628/IRE_280_010",
-        "fame": "general"
-      },
-      {
-        "id": "europeana:1316-https___www_searchculture_gr_aggregator_edm_momus_000179_9157",
-        "title": "Βυζαντινή ελεγεία",
-        "artist": "http://semantics.gr/authorities/searchculture-persons/1394277280",
-        "date": "1964",
-        "medium": "",
-        "source": "Metropolitan Organisation of Museums of Visual Arts of Thessaloniki – MOMus",
-        "image": "http://dam.momus.gr/files/original/13ae863d5d87c3443b57114769d5c2fccab895e1.jpg",
-        "link": "https://www.momus.gr/collections/0009157",
-        "fame": "general"
-      }
-    ]
-  },
-  {
     "id": "cubism-1",
     "themeId": "cubism",
     "title": "Cubism",
@@ -1769,28 +1648,6 @@
     "accent2": "#150d08",
     "pieces": [
       {
-        "id": "harvard:380635",
-        "title": "Untitled (bleed-through of previous page, left page); Untitled (\"children's masks\" inflatable with crowd, right page)",
-        "artist": "Otto Piene",
-        "date": "1978",
-        "medium": "Colored marker on paper",
-        "source": "Harvard Art Museums",
-        "image": "https://nrs.harvard.edu/urn-3:HUAM:774426",
-        "link": "https://www.harvardartmuseums.org/collections/object/380635",
-        "fame": "anchor"
-      },
-      {
-        "id": "harvard:195244",
-        "title": "H. Naylor Fitzhugh (1909-1992)",
-        "artist": "Charles Lilly",
-        "date": "1994",
-        "medium": "Acrylic paint on canvas",
-        "source": "Harvard Art Museums",
-        "image": "https://nrs.harvard.edu/urn-3:HUAM:LEG274524",
-        "link": "https://www.harvardartmuseums.org/collections/object/195244",
-        "fame": "anchor"
-      },
-      {
         "id": "harvard:291837",
         "title": "Bust of an African",
         "artist": "Unknown",
@@ -1821,17 +1678,6 @@
         "source": "Harvard Art Museums",
         "image": "https://nrs.harvard.edu/urn-3:HUAM:INV042787_dynmc",
         "link": "https://www.harvardartmuseums.org/collections/object/174989",
-        "fame": "general"
-      },
-      {
-        "id": "harvard:380636",
-        "title": "Untitled (bleed-through of previous page, left page); Untitled (\"big faces\" inflatable with crowd, right page)",
-        "artist": "Otto Piene",
-        "date": "1978",
-        "medium": "Black and red marker on paper",
-        "source": "Harvard Art Museums",
-        "image": "https://nrs.harvard.edu/urn-3:HUAM:774427",
-        "link": "https://www.harvardartmuseums.org/collections/object/380636",
         "fame": "general"
       },
       {
@@ -1866,17 +1712,6 @@
         "image": "https://collections.smvk.se/carlotta-em/web/image/zoom/3020417/bild-1994.11.0100.jpg",
         "link": "https://collections.smvk.se/carlotta-em/web/object/1008974",
         "fame": "general"
-      },
-      {
-        "id": "europeana:437-item_MDYNIL2F42UZRDDD2I7QLTE7BHOKK5JS",
-        "title": "Dresden, Museum of Ethnology Dresden. Distribution map for sculptures, masks and other figurative representations in black African cultures. Created by E. von Sydow, recording in 1952",
-        "artist": "Unbekannter Fotograf (Herstellung) (Fotograf)",
-        "date": "",
-        "medium": "",
-        "source": "Deutsche Fotothek",
-        "image": "http://fotothek.slub-dresden.de/fotos/df_hauptkatalog_0095291.jpg",
-        "link": "http://www.deutschefotothek.de/documents/obj/90054632",
-        "fame": "general"
       }
     ]
   },
@@ -1890,28 +1725,6 @@
     "accent2": "#0a1512",
     "pieces": [
       {
-        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_116257",
-        "title": "Oceanic",
-        "artist": "Unknown",
-        "date": "",
-        "medium": "",
-        "source": "Royal Museums Greenwich",
-        "image": "http://collections.rmg.co.uk/mediaLib/337/media-337145/large.jpg",
-        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_116257",
-        "fame": "anchor"
-      },
-      {
-        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114961",
-        "title": "Oceanic off Fastnet",
-        "artist": "Unknown",
-        "date": "",
-        "medium": "",
-        "source": "Royal Museums Greenwich",
-        "image": "http://collections.rmg.co.uk/mediaLib/336/media-336657/large.jpg",
-        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114961",
-        "fame": "anchor"
-      },
-      {
         "id": "met:313658",
         "title": "'Otua fefine (deity figure)",
         "artist": "Ha'apai Islands artist",
@@ -1920,28 +1733,6 @@
         "source": "The Metropolitan Museum of Art",
         "image": "https://images.metmuseum.org/CRDImages/ao/original/DP-16434-001.jpg",
         "link": "https://www.metmuseum.org/art/collection/search/313658",
-        "fame": "general"
-      },
-      {
-        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114960",
-        "title": "Oceanic Adriatic off Fastnet Rock",
-        "artist": "Unknown",
-        "date": "",
-        "medium": "",
-        "source": "Royal Museums Greenwich",
-        "image": "http://collections.rmg.co.uk/mediaLib/336/media-336655/large.jpg",
-        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114960",
-        "fame": "general"
-      },
-      {
-        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114974",
-        "title": "Bridge of Oceanic White Star",
-        "artist": "Unknown",
-        "date": "",
-        "medium": "",
-        "source": "Royal Museums Greenwich",
-        "image": "http://collections.rmg.co.uk/mediaLib/336/media-336670/large.jpg",
-        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_114974",
         "fame": "general"
       },
       {
@@ -1956,28 +1747,6 @@
         "fame": "general"
       },
       {
-        "id": "met:250487",
-        "title": "Glass bowl fragment with gold leaf and painted decoration",
-        "artist": "Unknown",
-        "date": "3rd–4th century CE",
-        "medium": "Glass, gold, paint",
-        "source": "The Metropolitan Museum of Art",
-        "image": "https://images.metmuseum.org/CRDImages/gr/original/DP107355.jpg",
-        "link": "https://www.metmuseum.org/art/collection/search/250487",
-        "fame": "general"
-      },
-      {
-        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_125304",
-        "title": "Oceanic",
-        "artist": "Unknown",
-        "date": "",
-        "medium": "",
-        "source": "Royal Museums Greenwich",
-        "image": "http://collections.rmg.co.uk/mediaLib/342/media-342396/large.jpg",
-        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_125304",
-        "fame": "general"
-      },
-      {
         "id": "met:311950",
         "title": "Krar (mask)",
         "artist": "Mabuiag Island artist",
@@ -1986,17 +1755,6 @@
         "source": "The Metropolitan Museum of Art",
         "image": "https://images.metmuseum.org/CRDImages/ao/original/DP148295.jpg",
         "link": "https://www.metmuseum.org/art/collection/search/311950",
-        "fame": "general"
-      },
-      {
-        "id": "europeana:2022362-_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_116258",
-        "title": "Oceanic II",
-        "artist": "Unknown",
-        "date": "",
-        "medium": "",
-        "source": "Royal Museums Greenwich",
-        "image": "http://collections.rmg.co.uk/mediaLib/337/media-337147/large.jpg",
-        "link": "https://www.europeana.eu/item/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_116258",
         "fame": "general"
       }
     ]
@@ -2020,17 +1778,6 @@
         "image": "https://images.metmuseum.org/CRDImages/ph/original/DP-19600-130.jpg",
         "link": "https://www.metmuseum.org/art/collection/search/286212",
         "fame": "anchor"
-      },
-      {
-        "id": "met:445246",
-        "title": "Panel from a Mantle or Apron",
-        "artist": "Unknown",
-        "date": "early 17th century",
-        "medium": "Cotton, tasar silk; plain weave, embroidered",
-        "source": "The Metropolitan Museum of Art",
-        "image": "https://images.metmuseum.org/CRDImages/is/original/DP229986.jpg",
-        "link": "https://www.metmuseum.org/art/collection/search/445246",
-        "fame": "general"
       },
       {
         "id": "met:282022",

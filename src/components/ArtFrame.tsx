@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState, type CSSProperties } from "react";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState, type CSSProperties } from "react";
 import styles from "./ArtFrame.module.css";
 import { COLLECTIONS } from "@/data/collections";
 import { useTour } from "@/hooks/useTour";
@@ -89,7 +89,10 @@ export default function ArtFrame() {
   }, []);
 
   // Fires whenever the displayed piece actually changes: crossfade, collection intro, view log.
-  useEffect(() => {
+  // useLayoutEffect (not useEffect) so that fade=false is applied before the browser paints —
+  // this prevents the new piece from appearing at full opacity for one frame before the
+  // crossfade transition starts ("wink in" artefact).
+  useLayoutEffect(() => {
     if (!current) return;
     const last = lastShownRef.current;
     if (last && last.id === current.id) return;
