@@ -245,7 +245,7 @@ export default function ArtFrame() {
           <div className={styles.captionText}>
             <div className={styles.title}>{current.title}</div>
             <div className={styles.metaLine}>
-              {current.artist} &middot; {current.date} &middot; {current.medium}
+              {current.artist} &middot; {current.date} &middot; {current.medium} &middot; {current.source}
             </div>
           </div>
           <div className={styles.qrWrap}>
@@ -257,7 +257,6 @@ export default function ArtFrame() {
                 className={styles.qrImg}
               />
             </div>
-            <div className={styles.sourceLabel}>{current.source}</div>
           </div>
         </div>
       )}
