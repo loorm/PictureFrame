@@ -14,6 +14,9 @@ export interface FetchTheme {
   accent2: string;
   /** Free-text query derived from the theme, used by adapters as a search string. */
   query: string;
+  /** When present, the wikimedia adapter uses Wikidata SPARQL (movement QID P135) instead
+   *  of a keyword search of Wikimedia Commons filenames. */
+  wikidataMovementQid?: string;
 }
 
 export interface SourceAdapter {

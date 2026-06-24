@@ -38,6 +38,14 @@ export interface Theme {
   blurb: string;
   accent: string;
   accent2: string;
+  /** Search query sent to museum APIs. Better than the bare title — includes key artists,
+   *  related terms, and cultural context so APIs without movement classification can still
+   *  surface the right works. Falls back to `title` if omitted. */
+  searchQuery?: string;
+  /** Wikidata movement QID (e.g. "Q39481" for Surrealism). When present, the wikimedia
+   *  adapter queries Wikidata SPARQL for artworks tagged with this movement (P135) rather
+   *  than doing a keyword search of Wikimedia Commons filenames — far more accurate. */
+  wikidataMovementQid?: string;
 }
 
 export interface ThemeCoverageEntry {

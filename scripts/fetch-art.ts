@@ -122,7 +122,10 @@ async function main() {
 
     const targetSize =
       MIN_COLLECTION_SIZE + Math.floor(Math.random() * (MAX_COLLECTION_SIZE - MIN_COLLECTION_SIZE + 1));
-    const fetchTheme: FetchTheme = { ...themeDef, query: themeDef.title };
+    const fetchTheme: FetchTheme = {
+      ...themeDef,
+      query: themeDef.searchQuery ?? themeDef.title,
+    };
     const sourcesForTheme = rotate(availableSources, themeIndex);
     themeIndex++;
 
