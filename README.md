@@ -68,10 +68,10 @@ npm run fetch-art
 ```
 
 Reads `SMITHSONIAN_API_KEY`, `HARVARD_API_KEY`, `EUROPEANA_API_KEY`, and
-`FLICKR_API_KEY` from `.env.local` (gitignored — see `API keys.md` for
-registration links; `FLICKR_API_KEY` is free at flickr.com/services/api/).
-Unsplash is also wired in but needs `UNSPLASH_ACCESS_KEY` and isn't
-registered yet.
+`FLICKR_API_KEY` from `.env.local` (gitignored). Flickr and Unsplash are
+wired in but currently inactive: Flickr now requires a Pro subscription to
+create API keys (free tier key creation is disabled); Unsplash needs
+`UNSPLASH_ACCESS_KEY` which hasn't been registered yet.
 Smithsonian is wired in but paused — their image CDN sends no `Content-Type`,
 which Chrome's Opaque Response Blocking rejects for cross-origin images. The
 11 already-fetched Smithsonian pieces were removed from the pool. Unsplash is

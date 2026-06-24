@@ -11,5 +11,5 @@
 | Harvard Art Museums | Very broad academic collection: ancient, European, Asian, Islamic, prints, drawings, photography, modern and contemporary | REST API; free API key required |
 | Europeana | Cross-institutional European art, photography, design, manuscripts, posters, sound, film and cultural heritage | Search, Record and IIIF APIs; free key required |
 | Wikimedia Commons | Aggregated public-domain and Creative Commons art, photography, diagrams, museum scans and digital media | MediaWiki API, Wikidata SPARQL and Commons category APIs; no key |
-| Flickr Commons | 100+ institutions (British Library, Wellcome Collection, NYPL, national archives, etc.) donating public-domain collections — different institutions than our other sources | Free API key at flickr.com/services/api/ |
+| Flickr Commons | 100+ institutions (British Library, Wellcome Collection, NYPL, national archives, etc.) donating public-domain collections — different institutions than our other sources | API key requires a Flickr Pro subscription (free tier key creation currently disabled) |
 | Unsplash | Contemporary creative photography and illustration rather than museum art | Free developer registration; up to 1,000 requests per hour on the published free tier |

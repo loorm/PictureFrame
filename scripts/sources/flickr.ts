@@ -7,7 +7,9 @@ import type { FetchTheme, RawCandidate, SourceAdapter } from "../lib/types";
  * their public-domain collections to Flickr. is_commons=1 restricts every
  * request to institutional contributions, keeping results curated.
  *
- * Requires FLICKR_API_KEY (free registration at flickr.com/services/api/).
+ * Requires FLICKR_API_KEY. Note: Flickr has disabled API key creation for free
+ * accounts — a Pro subscription is needed to obtain a key. The adapter is
+ * complete and will activate automatically once FLICKR_API_KEY is set.
  */
 
 interface FlickrPhoto {
