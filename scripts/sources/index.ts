@@ -1,6 +1,7 @@
 import { aic } from "./aic";
 import { cleveland } from "./cleveland";
 import { europeana } from "./europeana";
+import { flickr } from "./flickr";
 import { harvard } from "./harvard";
 import { met } from "./met";
 import { rijksmuseum } from "./rijksmuseum";
@@ -17,6 +18,7 @@ export const ALL_SOURCES: SourceAdapter[] = [
   vam,
   wikimedia,
   rijksmuseum,
+  flickr,
   smithsonian,
   harvard,
   europeana,

@@ -67,9 +67,11 @@ static site reading a JSON file that's grown offline.
 npm run fetch-art
 ```
 
-Reads `SMITHSONIAN_API_KEY`, `HARVARD_API_KEY`, `EUROPEANA_API_KEY` from
-`.env.local` (gitignored — see `API keys.md` for where to register; Unsplash
-needs a key too but isn't registered yet, so it's stubbed and skipped).
+Reads `SMITHSONIAN_API_KEY`, `HARVARD_API_KEY`, `EUROPEANA_API_KEY`, and
+`FLICKR_API_KEY` from `.env.local` (gitignored — see `API keys.md` for
+registration links; `FLICKR_API_KEY` is free at flickr.com/services/api/).
+Unsplash is also wired in but needs `UNSPLASH_ACCESS_KEY` and isn't
+registered yet.
 Smithsonian is wired in but paused — their image CDN sends no `Content-Type`,
 which Chrome's Opaque Response Blocking rejects for cross-origin images. The
 11 already-fetched Smithsonian pieces were removed from the pool. Unsplash is

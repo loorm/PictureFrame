@@ -36,6 +36,7 @@ jobs:
           SMITHSONIAN_API_KEY: ${{ secrets.SMITHSONIAN_API_KEY }}
           HARVARD_API_KEY: ${{ secrets.HARVARD_API_KEY }}
           EUROPEANA_API_KEY: ${{ secrets.EUROPEANA_API_KEY }}
+          FLICKR_API_KEY: ${{ secrets.FLICKR_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           FETCH_ART_TARGET_PIECES: ${{ github.event.inputs.target_pieces || '30' }}
         # Note: deliberately not `npm run fetch-art` — that script uses
