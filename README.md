@@ -70,16 +70,10 @@ npm run fetch-art
 Reads `SMITHSONIAN_API_KEY`, `HARVARD_API_KEY`, `EUROPEANA_API_KEY` from
 `.env.local` (gitignored — see `API keys.md` for where to register; Unsplash
 needs a key too but isn't registered yet, so it's stubbed and skipped).
-Sources that are reachable but currently can't produce usable results are
-paused — see the comment at the top of that source's adapter in
-`scripts/sources/` for why. Currently paused: Library of Congress (behind
-bot-protection), Whitney (their public dataset excludes images/links), and
-Smithsonian (their image CDN sends no `Content-Type`, which Chrome's Opaque
-Response Blocking rejects outright — confirmed, not a transient issue, so the
-11 already-fetched Smithsonian pieces and the collection built entirely from
-them were removed from the pool). Rijksmuseum needed a 3-hop Linked Art
-lookup (object → VisualItem → DigitalObject → actual image URL) but is fixed
-and active.
+Smithsonian is wired in but paused — their image CDN sends no `Content-Type`,
+which Chrome's Opaque Response Blocking rejects for cross-origin images. The
+11 already-fetched Smithsonian pieces were removed from the pool. Unsplash is
+stubbed pending key registration. All other adapters are active.
 
 Options: `npm run fetch-art -- --theme=<id>` restricts the run to one named
 theme (a deliberate top-up); `--target=N` (or the `FETCH_ART_TARGET_PIECES`
