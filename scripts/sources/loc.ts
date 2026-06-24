@@ -43,11 +43,16 @@ async function search(theme: FetchTheme, limit: number): Promise<RawCandidate[]>
 export const loc: SourceAdapter = {
   slug: "loc",
   name: "Library of Congress",
-  // www.loc.gov/photos/?...&fo=json (the documented JSON-search pattern) is
-  // currently behind a Cloudflare JS challenge ("Just a moment...") for plain
-  // HTTP requests — confirmed via curl with a real browser User-Agent, still
-  // 403s. Not a code bug; this needs either a different/dedicated LOC API
-  // endpoint or revisiting once their bot-protection setup changes.
+  // All loc.gov endpoints (photos, search, free-to-use, pictures) return HTTP
+  // 403 from Cloudflare for any server-side HTTP request, regardless of
+  // User-Agent. The protection requires a real browser with JS execution and
+  // cannot be bypassed from a fetch script.
+  //
+  // LOC content is not actually missing from the pool: the LOC has deposited
+  // thousands of public-domain photographs (FSA/OWI, PPOC, etc.) directly into
+  // Wikimedia Commons. Our Wikimedia adapter already surfaces that content when
+  // searching for the same themes; it just cites "Wikimedia Commons" as source
+  // rather than "Library of Congress". No content gap — only a labelling one.
   available: () => false,
   search,
 };
