@@ -2110,5 +2110,456 @@
         "fame": "general"
       }
     ]
+  },
+  {
+    "id": "american-modernism-1",
+    "themeId": "american-modernism",
+    "title": "American Modernism",
+    "era": "1900 — 1950",
+    "blurb": "Skylines, steel, and a new vocabulary for a fast-changing country.",
+    "accent": "#3a3a4a",
+    "accent2": "#14141f",
+    "pieces": [
+      {
+        "id": "aic:13627",
+        "title": "Five-storied Pagoda at Nikko (Nikko Goju no to)",
+        "artist": "Tsuchiya Koitsu",
+        "date": "1920s/1930s",
+        "medium": "Color woodblock print; oban",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/a95ee310-8d96-788f-5925-4a5d5f1e12bf/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/13627",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:10466",
+        "title": "Morigasaki Coast (Morigasaki kaigan)",
+        "artist": "Tsuchiya Koitsu",
+        "date": "1920s/1930s",
+        "medium": "Color woodblock print; oban",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/e9641a23-9d91-3701-43ca-884b43ea7822/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/10466",
+        "fame": "anchor"
+      },
+      {
+        "id": "harvard:243424",
+        "title": "Charles Edward Stuart, the Pretender",
+        "artist": "Thomas Hodgetts",
+        "date": "19th century",
+        "medium": "",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:INV198085_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/243424",
+        "fame": "general"
+      },
+      {
+        "id": "aic:209858",
+        "title": "Kimono",
+        "artist": "Japan",
+        "date": "Taishô period (1912–1926)/Shôwa period (1926–1989), late 1920s/1930s",
+        "medium": "Silk, stencil-printed wefts (yokoso kasuri) plain weave; lined with silk, plain weave with creped wefts (chirimen)",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/da0179cc-e516-c739-d071-b6820d97d61f/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/209858",
+        "fame": "general"
+      },
+      {
+        "id": "aic:209859",
+        "title": "Kimono",
+        "artist": "Japan",
+        "date": "1920s/1930s, Taishô period (1912–1926)/Shôwa period (1926–1989)",
+        "medium": "Silk, stencil-printed warp and weft (heiyo kasuri) plain weave; lined with cotton, plain weave and silk, plain weave",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/6a6d6a8a-7eb7-2c33-1302-e92123372734/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/209859",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:306435",
+        "title": "Manhattan Bridge",
+        "artist": "Edward Hopper",
+        "date": "1925",
+        "medium": "Watercolor over graphite on white wove paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:776283",
+        "link": "https://www.harvardartmuseums.org/collections/object/306435",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:306540",
+        "title": "Highland Light",
+        "artist": "Edward Hopper",
+        "date": "1930",
+        "medium": "Watercolor and graphite on rough white wove paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:777627",
+        "link": "https://www.harvardartmuseums.org/collections/object/306540",
+        "fame": "general"
+      },
+      {
+        "id": "aic:197396",
+        "title": "Moorhens",
+        "artist": "Komori Soseki",
+        "date": "1929",
+        "medium": "Color woodblock print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/163f1720-6403-be1b-fab4-dcf40754ab03/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/197396",
+        "fame": "general"
+      },
+      {
+        "id": "aic:13299",
+        "title": "Morigasaki Coast (Morigasaki kaigan)",
+        "artist": "Tsuchiya Koitsu",
+        "date": "1920s/1930s",
+        "medium": "Color woodblock print; oban",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/61cf6592-eb54-9c52-a7f8-37b01436fd84/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/13299",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "minimalism-1",
+    "themeId": "minimalism",
+    "title": "Minimalism",
+    "era": "1960s — 1970s",
+    "blurb": "Reduced to essentials — colour, repetition, and industrial material.",
+    "accent": "#2a2a2a",
+    "accent2": "#101010",
+    "pieces": [
+      {
+        "id": "aic:150652",
+        "title": "Hanging",
+        "artist": "Claire Zeisler (American, 1903-1991)",
+        "date": "1960s",
+        "medium": "Silk and wool; plain weave and plain weave double cloth (areas stuffed) with areas of gauze interlacing and knotting (bead, flat, and half knots); crochet and cut main warp fringe",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/ebb342e9-ad37-621a-2e42-3cbd1d2e5f74/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/150652",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:198710",
+        "title": "Storage-Rack Panel with Figures and Animals",
+        "artist": "Zizwezenyanga Qwabe (c. 1900-late 1960s or early 1970s)",
+        "date": "Late 1920s/40s",
+        "medium": "Boxwood",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/9eb5cc4b-8007-a275-8923-b3409fea61fd/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/198710",
+        "fame": "general"
+      },
+      {
+        "id": "wikimedia:wikidata-Q5582",
+        "title": "Vincent van Gogh",
+        "artist": "Unknown",
+        "date": "",
+        "medium": "",
+        "source": "Wikimedia Commons",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Self-portrait%20-%20Vincent%20van%20Gogh.jpg",
+        "link": "https://www.wikidata.org/wiki/Q5582",
+        "fame": "general"
+      },
+      {
+        "id": "aic:198708",
+        "title": "Storage-Rack Panel",
+        "artist": "Zizwezenyanga Qwabe (c. 1900-late 1960s or early 1970s)",
+        "date": "Late 1920s/40s",
+        "medium": "Boxwood",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/81203f6e-b923-863b-ba95-0be3796c01be/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/198708",
+        "fame": "general"
+      },
+      {
+        "id": "aic:71168",
+        "title": "Alphabet (Furnishing Fabric)",
+        "artist": "Designed by Alexander Girard (American, 1907–1993)",
+        "date": "1960s",
+        "medium": "Linen, plain weave; screen printed",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/7c9cce63-e8a0-9bc6-56a4-7a23b67df697/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/71168",
+        "fame": "general"
+      },
+      {
+        "id": "aic:31109",
+        "title": "Michelangelo's David",
+        "artist": "Jack A. Jaffe",
+        "date": "c. 1960s",
+        "medium": "Gelatin silver print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/6bf16ba3-d5a5-3b23-d3ed-73073184e7dd/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/31109",
+        "fame": "general"
+      },
+      {
+        "id": "aic:198705",
+        "title": "Pair of Storage-Rack Panels",
+        "artist": "Zizwezenyanga Qwabe (c. 1900-late 1960s or early 1970s)",
+        "date": "Late 1920s/1940s",
+        "medium": "Boxwood",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/6a0ecff9-7065-1b84-e433-7467a8b7f058/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/198705",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "contemporary-photography-1",
+    "themeId": "contemporary-photography",
+    "title": "Contemporary Photography",
+    "era": "1990 — present",
+    "blurb": "The camera now — staged, documentary, and everything between.",
+    "accent": "#22323a",
+    "accent2": "#0c1318",
+    "pieces": [
+      {
+        "id": "aic:229388",
+        "title": "Untitled #90",
+        "artist": "Cindy Sherman ",
+        "date": "1981",
+        "medium": "Chromogenic print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/0cb987af-2eb5-5cee-837a-cf9df515947b/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/229388",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:72431",
+        "title": "Untitled Film Still #12",
+        "artist": "Cindy Sherman",
+        "date": "1978",
+        "medium": "Gelatin silver print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/aaee5cd9-7492-2bbf-e70b-c8ad00912266/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/72431",
+        "fame": "general"
+      },
+      {
+        "id": "aic:229386",
+        "title": "Untitled #86",
+        "artist": "Cindy Sherman ",
+        "date": "1981",
+        "medium": "Chromogenic print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/9e90ca7e-e4df-3007-1671-4d8b16e471ca/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/229386",
+        "fame": "general"
+      },
+      {
+        "id": "aic:157154",
+        "title": "Shanghai",
+        "artist": "Andreas Gursky",
+        "date": "2000",
+        "medium": "Chromogenic print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/00c608ce-91b0-e893-8ee1-3d6fc7d806c6/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/157154",
+        "fame": "general"
+      },
+      {
+        "id": "aic:72442",
+        "title": "Untitled Film Still #56",
+        "artist": "Cindy Sherman",
+        "date": "1980",
+        "medium": "Gelatin silver print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/7a4b9f82-ff54-4cac-e1e6-36aa87c636b3/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/72442",
+        "fame": "general"
+      },
+      {
+        "id": "aic:229389",
+        "title": "Untitled #92",
+        "artist": "Cindy Sherman ",
+        "date": "1981",
+        "medium": "Chromogenic print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/265cf372-53bb-8b66-2f3c-388f23ae4e26/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/229389",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "digital-computer-art-1",
+    "themeId": "digital-computer-art",
+    "title": "Computer & Digital Art",
+    "era": "1960s — present",
+    "blurb": "Code, pixels, and plotters — art made with and about the machine.",
+    "accent": "#1a2a3a",
+    "accent2": "#080f15",
+    "pieces": [
+      {
+        "id": "harvard:365370",
+        "title": "Tomboctou Home",
+        "artist": "Ian van Coller",
+        "date": "1998",
+        "medium": "Archival pigment print",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:LEG275420",
+        "link": "https://www.harvardartmuseums.org/collections/object/365370",
+        "fame": "anchor"
+      },
+      {
+        "id": "aic:148407",
+        "title": "Crossroads",
+        "artist": "Art Spiegelman",
+        "date": "1997",
+        "medium": "Tint lithograph from two blacks and a pale yellow tint on white wove paper",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/45b40211-18e7-1153-1b7d-18ddc0272d23/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/148407",
+        "fame": "general"
+      },
+      {
+        "id": "aic:47135",
+        "title": "Diminishing Returns",
+        "artist": "Art Green",
+        "date": "1973",
+        "medium": "Oil on canvas",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/b6b75216-1c22-8431-6ed4-2e5cab135a93/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/47135",
+        "fame": "general"
+      },
+      {
+        "id": "aic:191355",
+        "title": "Nelson Algren Amuses a New Friend",
+        "artist": "Art Shay",
+        "date": "1949, printed 2005",
+        "medium": "Gelatin silver print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/bb5e3048-64e5-be99-c575-f89607cd55a9/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/191355",
+        "fame": "general"
+      },
+      {
+        "id": "aic:191353",
+        "title": "Nelson Algren, by his Favorite Division St. Bar, Chicago",
+        "artist": "Art Shay",
+        "date": "1949",
+        "medium": "Gelatin silver print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/2658eeb4-ad05-9fb5-5f2e-1fd8ffee9ce0/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/191353",
+        "fame": "general"
+      },
+      {
+        "id": "aic:191358",
+        "title": "Nelson Algren Pauses after Another White Sox Loss, Chicago",
+        "artist": "Art Shay",
+        "date": "1950",
+        "medium": "Gelatin silver print",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/d141a769-24af-ff07-d792-183ae73ae765/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/191358",
+        "fame": "general"
+      }
+    ]
+  },
+  {
+    "id": "folk-art-americana-1",
+    "themeId": "folk-art-americana",
+    "title": "American Folk Art",
+    "era": "18th — 19th century",
+    "blurb": "Self-taught hands, painted signs, and portraits made without formal training.",
+    "accent": "#3a3022",
+    "accent2": "#15110b",
+    "pieces": [
+      {
+        "id": "harvard:172558",
+        "title": "Object file, estate: Self-Portrait with Sliding Light, 1987, (W40), sculpture",
+        "artist": "Christopher Wilmarth",
+        "date": "20th century",
+        "medium": "",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:762150",
+        "link": "https://www.harvardartmuseums.org/collections/object/172558",
+        "fame": "anchor"
+      },
+      {
+        "id": "harvard:337441",
+        "title": "Rio de Janiero",
+        "artist": "Justin McCarthy",
+        "date": "1960s",
+        "medium": "Gouache and black ink on brown wove paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:huam:DDC112323_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/337441",
+        "fame": "anchor"
+      },
+      {
+        "id": "met:437490",
+        "title": "The Annunciation",
+        "artist": "Hans Memling",
+        "date": "ca. 1465–70",
+        "medium": "Oil on wood",
+        "source": "The Metropolitan Museum of Art",
+        "image": "https://images.metmuseum.org/CRDImages/ep/original/DP240360.jpg",
+        "link": "https://www.metmuseum.org/art/collection/search/437490",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:276021",
+        "title": "Key to the Death of the Earl of Chatham",
+        "artist": "Abraham Raimbach",
+        "date": "1791",
+        "medium": "",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:759934",
+        "link": "https://www.harvardartmuseums.org/collections/object/276021",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:276207",
+        "title": "Frontispiece for \"America a Prophecy\"",
+        "artist": "William Blake",
+        "date": "1793",
+        "medium": "Color relief etching on off-white wove paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:769430",
+        "link": "https://www.harvardartmuseums.org/collections/object/276207",
+        "fame": "general"
+      },
+      {
+        "id": "aic:55692",
+        "title": "New England Country Seat",
+        "artist": "Artist unknown (American, 18th–19th century)",
+        "date": "1800–20",
+        "medium": "Oil on yellow poplar panel",
+        "source": "Art Institute of Chicago",
+        "image": "https://www.artic.edu/iiif/2/e10efc2c-b1a4-92c2-6180-813866c58c38/full/843,/0/default.jpg",
+        "link": "https://www.artic.edu/artworks/55692",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:279577",
+        "title": "The Siege and Relief of Gibraltar",
+        "artist": "William Sharp",
+        "date": "1810",
+        "medium": "",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:760457",
+        "link": "https://www.harvardartmuseums.org/collections/object/279577",
+        "fame": "general"
+      },
+      {
+        "id": "harvard:201255",
+        "title": "Attributes and Uses of Chapters of the Qur'an, folio from an album",
+        "artist": "Unknown",
+        "date": "18th-19th century",
+        "medium": "Ink, opaque watercolor and gold on paper",
+        "source": "Harvard Art Museums",
+        "image": "https://nrs.harvard.edu/urn-3:HUAM:30765_dynmc",
+        "link": "https://www.harvardartmuseums.org/collections/object/201255",
+        "fame": "general"
+      }
+    ]
   }
 ]
